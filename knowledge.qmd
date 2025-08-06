@@ -1,0 +1,25 @@
+---
+title: "Знания"
+toc: true
+---
+
+За 22 года работы, и изучения процессов на фондовом рынке накопилось много информации. Со временем она будет структурирована и оформлена в виде мини курсов.
+
+## Будут затронуты следующие темы:
+
+
+* Drummond geometry
+
+* Clyde lee patterns
+
+* Timing
+
+* Backtesting
+
+* Algoframework R or C#
+
+* Lifycycle and robust of trading strategy development
+
+* Momentum and Mean Reversal strategies
+
+* Quanitative Momentum strategies

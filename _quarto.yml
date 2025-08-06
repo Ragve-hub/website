@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  open-graph: true
+  title: "Vector"
+  favicon: favicon.ico
+  navbar:
+    background: dark
+    left:
+      - text: AM
+        file: index.qmd
+
+    logo: black_final.png
+    
+
+
+     
+
+      
+  page-footer: 
+    left: "Copyright 2003-2025, Qt" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+      - icon: rss-fill
+        href: news.xml
+
+    
+        
+format:
+  html:
+    theme: seem.scss
+    highlight-style: seem.theme
+    other-links:
+      - href: posts/index.html
+        icon: bookmark
+        text: Статьи
+
+
+      - href: knowledge.html
+        icon: book
+        text: Знания
+
+      - href: services.html
+        icon: sliders
+        text: Сервисы
+      
+      - href: social.html
+        icon: discord
+        text: Сообщество
+
+  pdf:
+    link-citations: true
+    number-sections: false
+
+  docx:
+    reference-doc: custom-reference.docx
+   
+metadata:
+   # pagetitle: "{{< meta title >}}"
+   # freeze: true
+   # title-block-banner: false
+     # author: Vector
+     # Can't yet enable this because it causes "On this page" to appear on index.html
+     # even if I set its post-level `toc: false`
+  toc: true
+     # title-block-categories: false
+     # toc-depth: 5
+  

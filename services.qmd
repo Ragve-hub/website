@@ -1,0 +1,18 @@
+---
+title: "Сервисы"
+toc: true
+---
+## О них
+cервисы представляют из себя интерактивные дашбоард (Shiny R) c доступом к данным в реальном времени.
+
+
+## Список
+
+* Drummond geometry
+* Clyde lee pattern
+* Options
+* Bayesian prediction. Markov Chain. Entropy
+
+
+## Доступ к сервисам
+после заполнения анкеты и оплаты.
