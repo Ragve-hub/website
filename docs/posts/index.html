@@ -1,0 +1,1929 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>index – Vector</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-reading-time','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Vector">
+<meta property="og:site_name" content="Vector">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Vector</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">AM</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../posts/index.html" aria-current="page"> 
+<span class="menu-text">Статьи</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<ul>
+<li><p>Контент содержит численные исследования финансового и экономического характера, проливающие свет на закономерности поведения биржевых цен в различных временных масштабах.</p></li>
+<li><p>Код публикуется для решения конкретных задач алгоритмической торговли. Языки программирования R, C#.</p></li>
+<li><p>Готовые идеи, и торговые стратегии не будут находиться в открытом доступе. Только примеры, и полезная информация на “подумать”.</p></li>
+</ul>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Рекомендации" data-listing-date-sort="1659380400000" data-listing-file-modified-sort="1754406344090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1140">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/22-08-02-physics_task.html" class="no-external">Природа решения физических задач</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/22-08-02-physics_task.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/22-08-02-physics_task.html" class="no-external">
+<div class="listing-date">
+2022-08-02
+</div>
+<div class="listing-reading-time">
+6 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Рекомендации" data-listing-date-sort="1657738800000" data-listing-file-modified-sort="1754404698811" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-07-14-value_countries.html" class="no-external">Фактор стоимости. CAPE</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-07-14-value_countries.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-07-14-value_countries.html" class="no-external">
+<div class="listing-date">
+2022-07-14
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="R" data-listing-date-sort="1656097200000" data-listing-file-modified-sort="1754404872841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-06-25-realized_vol.html" class="no-external">Волатильность 30/60/90 дней</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-06-25-realized_vol.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-06-25-realized_vol.html" class="no-external">
+<div class="listing-date">
+2022-06-25
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="C#" data-listing-date-sort="1654887600000" data-listing-file-modified-sort="1754404607718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="355">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-06-11-custom_breath.html" class="no-external">Расчет кастом breadth индикаторов</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-06-11-custom_breath.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-06-11-custom_breath.html" class="no-external">
+<div class="listing-date">
+2022-06-11
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Рекомендации" data-listing-date-sort="1654801200000" data-listing-file-modified-sort="1754404571368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-06-10-industry_impulse.html" class="no-external">Импульс отрасли. Танцы на пузырях</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-06-10-industry_impulse.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-06-10-industry_impulse.html" class="no-external">
+<div class="listing-date">
+2022-06-10
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Рекомендации" data-listing-date-sort="1652382000000" data-listing-file-modified-sort="1754396156273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-05-13-soccer_arbitrage.html" class="no-external">Арбитраж акций футбольных клубов</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-05-13-soccer_arbitrage.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-05-13-soccer_arbitrage.html" class="no-external">
+<div class="listing-date">
+2022-05-13
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="R" data-listing-date-sort="1651431600000" data-listing-file-modified-sort="1754404505609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1050">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-05-02-orderlog_plaza.html" class="no-external">Исследование полного лога заявок</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-05-02-orderlog_plaza.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-05-02-orderlog_plaza.html" class="no-external">
+<div class="listing-date">
+2022-05-02
+</div>
+<div class="listing-reading-time">
+6 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Рекомендации" data-listing-date-sort="1650826800000" data-listing-file-modified-sort="1754404436603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-04-25-accrual_anomaly.html" class="no-external">Аномалии начисления</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-04-25-accrual_anomaly.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-04-25-accrual_anomaly.html" class="no-external">
+<div class="listing-date">
+2022-04-25
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="Видео" data-listing-date-sort="1650826800000" data-listing-file-modified-sort="1754396139088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-04-25-video.html" class="no-external">Лекции Кирилла Ильинского</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-04-25-video.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Видео'); return false;">
+Видео
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-04-25-video.html" class="no-external">
+<div class="listing-date">
+2022-04-25
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="Мета" data-listing-date-sort="1650481200000" data-listing-file-modified-sort="1754396127750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-04-21-liquidity.html" class="no-external">Ликвидность в стакане</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-04-21-liquidity.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-04-21-liquidity.html" class="no-external">
+<div class="listing-date">
+2022-04-21
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="Мета" data-listing-date-sort="1650394800000" data-listing-file-modified-sort="1754396122718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-04-20-cup_of_tea.html" class="no-external">Чашка чая</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-04-20-cup_of_tea.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-04-20-cup_of_tea.html" class="no-external">
+<div class="listing-date">
+2022-04-20
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="Мета" data-listing-date-sort="1648494000000" data-listing-file-modified-sort="1754396116950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-03-29-lessons.html" class="no-external">Извлеченные уроки</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-03-29-lessons.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-03-29-lessons.html" class="no-external">
+<div class="listing-date">
+2022-03-29
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="Мета" data-listing-date-sort="1648407600000" data-listing-file-modified-sort="1754396109315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-03-28-questions.html" class="no-external">Вопросы важнее ответов</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-03-28-questions.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-03-28-questions.html" class="no-external">
+<div class="listing-date">
+2022-03-28
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="Мета" data-listing-date-sort="1648321200000" data-listing-file-modified-sort="1754404277648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-03-27-meta16.html" class="no-external">16 Мета паттернов</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-03-27-meta16.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-03-27-meta16.html" class="no-external">
+<div class="listing-date">
+2022-03-27
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="Мета" data-listing-date-sort="1648234800000" data-listing-file-modified-sort="1754396099058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-03-26-key.html" class="no-external">Ключ</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-03-26-key.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-03-26-key.html" class="no-external">
+<div class="listing-date">
+2022-03-26
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="Мета" data-listing-date-sort="1648148400000" data-listing-file-modified-sort="1754404217770" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-03-25-Immersion.html" class="no-external">Погружения второго порядка</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-03-25-Immersion.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-03-25-Immersion.html" class="no-external">
+<div class="listing-date">
+2022-03-25
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="Мета" data-listing-date-sort="1648062000000" data-listing-file-modified-sort="1754404193582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-03-24-axiom.html" class="no-external">Аксиома малого преимущества</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-03-24-axiom.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Мета'); return false;">
+Мета
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-03-24-axiom.html" class="no-external">
+<div class="listing-date">
+2022-03-24
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="Рекомендации" data-listing-date-sort="1646247600000" data-listing-file-modified-sort="1754404119888" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="362">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-03-03-rebalance_premium.html" class="no-external">Премия за ребалансировку</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-03-03-rebalance_premium.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-03-03-rebalance_premium.html" class="no-external">
+<div class="listing-date">
+2022-03-03
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="Рекомендации" data-listing-date-sort="1643742000000" data-listing-file-modified-sort="1754404057937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-02-02-strategy_overview.html" class="no-external">Стратегии из академических работ</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-02-02-strategy_overview.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-02-02-strategy_overview.html" class="no-external">
+<div class="listing-date">
+2022-02-02
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="Рекомендации" data-listing-date-sort="1641668400000" data-listing-file-modified-sort="1754403990816" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-01-09-overretun.html" class="no-external">Овернайт доходность</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-01-09-overretun.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-01-09-overretun.html" class="no-external">
+<div class="listing-date">
+2022-01-09
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="Рекомендации" data-listing-date-sort="1641409200000" data-listing-file-modified-sort="1754403945211" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2022-01-06-market_anomaly.html" class="no-external">Рыночный сентимент и аномалии</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2022-01-06-market_anomaly.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2022-01-06-market_anomaly.html" class="no-external">
+<div class="listing-date">
+2022-01-06
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="C#" data-listing-date-sort="1640026800000" data-listing-file-modified-sort="1754403900775" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-12-21-filter.html" class="no-external">Фильтрация активов по условию</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-12-21-filter.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-12-21-filter.html" class="no-external">
+<div class="listing-date">
+2021-12-21
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="C#" data-listing-date-sort="1639940400000" data-listing-file-modified-sort="1754403858474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1809">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-12-20-import_csv.html" class="no-external">Импорт данных из csv файла</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-12-20-import_csv.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-12-20-import_csv.html" class="no-external">
+<div class="listing-date">
+2021-12-20
+</div>
+<div class="listing-reading-time">
+10 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="C#" data-listing-date-sort="1639854000000" data-listing-file-modified-sort="1754403787232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1439">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-12-19-buildBars.html" class="no-external">Построение баров из trades</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-12-19-buildBars.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-12-19-buildBars.html" class="no-external">
+<div class="listing-date">
+2021-12-19
+</div>
+<div class="listing-reading-time">
+8 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="C#" data-listing-date-sort="1639767600000" data-listing-file-modified-sort="1754403752758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-12-18-timer_order.html" class="no-external">Отмена ордера по таймеру</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-12-18-timer_order.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-12-18-timer_order.html" class="no-external">
+<div class="listing-date">
+2021-12-18
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="Рекомендации" data-listing-date-sort="1637953200000" data-listing-file-modified-sort="1754403725933" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-11-27-mreversal_daily.html" class="no-external">Дневная реверсия</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-11-27-mreversal_daily.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-11-27-mreversal_daily.html" class="no-external">
+<div class="listing-date">
+2021-11-27
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="26" data-categories="Рекомендации" data-listing-date-sort="1637780400000" data-listing-file-modified-sort="1754403605965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-11-25-mreversal_about.html" class="no-external">О возврате к среднему</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-11-25-mreversal_about.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-11-25-mreversal_about.html" class="no-external">
+<div class="listing-date">
+2021-11-25
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="27" data-categories="C#" data-listing-date-sort="1636916400000" data-listing-file-modified-sort="1754403564707" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-11-15-excel_rw.html" class="no-external">Чтение и запись данных в Excel</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-11-15-excel_rw.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-11-15-excel_rw.html" class="no-external">
+<div class="listing-date">
+2021-11-15
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="28" data-categories="C#" data-listing-date-sort="1636225200000" data-listing-file-modified-sort="1754403529861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-11-07-preload.html" class="no-external">Предзагрузка данных в стратегию</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-11-07-preload.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-11-07-preload.html" class="no-external">
+<div class="listing-date">
+2021-11-07
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="29" data-categories="Рекомендации" data-listing-date-sort="1634756400000" data-listing-file-modified-sort="1754403491437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="685">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-10-21-momentum_papers.html" class="no-external">О моментуме</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-10-21-momentum_papers.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-10-21-momentum_papers.html" class="no-external">
+<div class="listing-date">
+2021-10-21
+</div>
+<div class="listing-reading-time">
+4 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="30" data-categories="C#" data-listing-date-sort="1633201200000" data-listing-file-modified-sort="1754403386018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="857">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-10-03-wfa.html" class="no-external">Brutforce оптимизация + Wfa</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-10-03-wfa.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-10-03-wfa.html" class="no-external">
+<div class="listing-date">
+2021-10-03
+</div>
+<div class="listing-reading-time">
+5 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="31" data-categories="R" data-listing-date-sort="1633114800000" data-listing-file-modified-sort="1754403341547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-10-02-arb.html" class="no-external">Арбитраж a vs b</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-10-02-arb.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-10-02-arb.html" class="no-external">
+<div class="listing-date">
+2021-10-02
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="32" data-categories="C#" data-listing-date-sort="1633064812000" data-listing-file-modified-sort="1754403243266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="585">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-10-01-fifo_lifo.html" class="no-external">Расчет средней цены</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-10-01-fifo_lifo.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-10-01-fifo_lifo.html" class="no-external">
+<div class="listing-date">
+2021-10-01
+</div>
+<div class="listing-reading-time">
+3 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="33" data-categories="C#" data-listing-date-sort="1633028400000" data-listing-file-modified-sort="1754403288536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-10-01-import_quantbase.html" class="no-external">Импорт данных в Quantbase</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-10-01-import_quantbase.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-10-01-import_quantbase.html" class="no-external">
+<div class="listing-date">
+2021-10-01
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="34" data-categories="C#" data-listing-date-sort="1632855600000" data-listing-file-modified-sort="1754403190156" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-09-29-cross_period.html" class="no-external">Анализ данных за разные периоды времени</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-09-29-cross_period.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-09-29-cross_period.html" class="no-external">
+<div class="listing-date">
+2021-09-29
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="35" data-categories="C#" data-listing-date-sort="1632769200000" data-listing-file-modified-sort="1754403158497" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="846">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-09-28-import.html" class="no-external">Импорт внешних данных</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-09-28-import.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('C#'); return false;">
+C#
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-09-28-import.html" class="no-external">
+<div class="listing-date">
+2021-09-28
+</div>
+<div class="listing-reading-time">
+5 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="36" data-categories="Рекомендации" data-listing-date-sort="1632164400000" data-listing-file-modified-sort="1754403086303" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="675">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-09-21-research_people.html" class="no-external">Академические исследователи</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-09-21-research_people.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-09-21-research_people.html" class="no-external">
+<div class="listing-date">
+2021-09-21
+</div>
+<div class="listing-reading-time">
+4 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="37" data-categories="Исследования" data-listing-date-sort="1631214000000" data-listing-file-modified-sort="1754402579235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-09-10-Корреляция фьючерсов.html" class="no-external">Динамика корреляции фьючерсов к RI</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-09-10-Корреляция фьючерсов.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Исследования'); return false;">
+Исследования
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-09-10-Корреляция фьючерсов.html" class="no-external">
+<div class="listing-date">
+2021-09-10
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="38" data-categories="Исследования" data-listing-date-sort="1631127600000" data-listing-file-modified-sort="1754402540269" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-09-09-вероятность разворота.html" class="no-external">Статистика разворотов индексов Moex</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-09-09-вероятность разворота.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Исследования'); return false;">
+Исследования
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-09-09-вероятность разворота.html" class="no-external">
+<div class="listing-date">
+2021-09-09
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="39" data-categories="Рекомендации" data-listing-date-sort="1630782000000" data-listing-file-modified-sort="1754403005070" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1675">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-09-05-research_papers.html" class="no-external">Академические статьи</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-09-05-research_papers.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-09-05-research_papers.html" class="no-external">
+<div class="listing-date">
+2021-09-05
+</div>
+<div class="listing-reading-time">
+9 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="40" data-categories="R" data-listing-date-sort="1627239600000" data-listing-file-modified-sort="1754402496468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-07-26-pnf.html" class="no-external">График/паттерны point &amp; figure</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-07-26-pnf.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-07-26-pnf.html" class="no-external">
+<div class="listing-date">
+2021-07-26
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="41" data-categories="R" data-listing-date-sort="1627153200000" data-listing-file-modified-sort="1754402367260" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-07-25-momersion.html" class="no-external">Индикатор momersion by Michael Harris</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-07-25-momersion.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-07-25-momersion.html" class="no-external">
+<div class="listing-date">
+2021-07-25
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="42" data-categories="R" data-listing-date-sort="1627066800000" data-listing-file-modified-sort="1754402431079" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-07-26-moex-cot.html" class="no-external">Скачивание открытых позиций MOEX</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-07-26-moex-cot.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-07-26-moex-cot.html" class="no-external">
+<div class="listing-date">
+2021-07-24
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="43" data-categories="Исследования" data-listing-date-sort="1614798000000" data-listing-file-modified-sort="1754402932843" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-03-04-Симуляция-монтекарло.html" class="no-external">Моделирование торгов методом Монте-Карло</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-03-04-Симуляция-монтекарло.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Исследования'); return false;">
+Исследования
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-03-04-Симуляция-монтекарло.html" class="no-external">
+<div class="listing-date">
+2021-03-04
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="44" data-categories="Исследования" data-listing-date-sort="1613329200000" data-listing-file-modified-sort="1754402887222" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="436">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-02-10-Сезонные закономерности индекса РТС.html" class="no-external">Сезонные закономерности Индекса РТС</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-02-10-Сезонные закономерности индекса РТС.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Исследования'); return false;">
+Исследования
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-02-10-Сезонные закономерности индекса РТС.html" class="no-external">
+<div class="listing-date">
+2021-02-15
+</div>
+<div class="listing-reading-time">
+3 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="45" data-categories="Исследования" data-listing-date-sort="1611169200000" data-listing-file-modified-sort="1754402308695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-01-21-Три сезонных стратегии BrentWTI_1983_2017.html" class="no-external">Три сезонных стратегии Brent/Wti 1983-2017</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-01-21-Три сезонных стратегии BrentWTI_1983_2017.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Исследования'); return false;">
+Исследования
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-01-21-Три сезонных стратегии BrentWTI_1983_2017.html" class="no-external">
+<div class="listing-date">
+2021-01-21
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="46" data-categories="Исследования" data-listing-date-sort="1610218800000" data-listing-file-modified-sort="1754402757633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-10-01-188-anomaly.html" class="no-external">188 календарных аномалий. S&amp;P, DAX, NIKKEI</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-10-01-188-anomaly.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Исследования'); return false;">
+Исследования
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-10-01-188-anomaly.html" class="no-external">
+<div class="listing-date">
+2021-01-10
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="47" data-categories="Исследования" data-listing-date-sort="1609873200000" data-listing-file-modified-sort="1754402224392" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-01-06-сравнение доходностей.html" class="no-external">Сравнение доходностей (daily/intraday/overnight) разных активов</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-01-06-сравнение доходностей.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Исследования'); return false;">
+Исследования
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-01-06-сравнение доходностей.html" class="no-external">
+<div class="listing-date">
+2021-01-06
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="48" data-categories="Рекомендации" data-listing-date-sort="1600801200000" data-listing-file-modified-sort="1754402681237" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-09-23-economic_ortodox.html" class="no-external">Экономическая ортодоксальность</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-09-23-economic_ortodox.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-09-23-economic_ortodox.html" class="no-external">
+<div class="listing-date">
+2020-09-23
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="49" data-categories="Рекомендации" data-listing-date-sort="1600110000000" data-listing-file-modified-sort="1754402623522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="417">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2020-09-15-predvzatost.html" class="no-external">О предвзятости</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2020-09-15-predvzatost.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2020-09-15-predvzatost.html" class="no-external">
+<div class="listing-date">
+2020-09-15
+</div>
+<div class="listing-reading-time">
+3 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="50" data-categories="Рекомендации" data-listing-date-sort="1600110000000" data-listing-file-modified-sort="1754403650134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../posts/2021-11-26-mreversal_intraday.html" class="no-external">Внутридневная реверсия</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../posts/2021-11-26-mreversal_intraday.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Рекомендации'); return false;">
+Рекомендации
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../posts/2021-11-26-mreversal_intraday.html" class="no-external">
+<div class="listing-date">
+2020-09-15
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2003-2025, Qt</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../news.xml">
+      <i class="bi bi-rss-fill" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

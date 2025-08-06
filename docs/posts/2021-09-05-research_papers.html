@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-09-05">
+
+<title>Академические статьи – Vector</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta property="og:title" content="Академические статьи">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Vector">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Vector</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">AM</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../posts/index.html"> 
+<span class="menu-text">Статьи</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#оценка-риска" id="toc-оценка-риска" class="nav-link active" data-scroll-target="#оценка-риска">Оценка риска :</a></li>
+  <li><a href="#оценка-волатильности" id="toc-оценка-волатильности" class="nav-link" data-scroll-target="#оценка-волатильности">Оценка волатильности :</a></li>
+  <li><a href="#паттерны" id="toc-паттерны" class="nav-link" data-scroll-target="#паттерны">Паттерны :</a></li>
+  <li><a href="#арбитражная-торговля" id="toc-арбитражная-торговля" class="nav-link" data-scroll-target="#арбитражная-торговля">Арбитражная торговля :</a></li>
+  <li><a href="#нейронные-сети" id="toc-нейронные-сети" class="nav-link" data-scroll-target="#нейронные-сети">Нейронные сети :</a></li>
+  <li><a href="#монте-карло-симуляции" id="toc-монте-карло-симуляции" class="nav-link" data-scroll-target="#монте-карло-симуляции">Монте-карло симуляции :</a></li>
+  <li><a href="#теория-игр" id="toc-теория-игр" class="nav-link" data-scroll-target="#теория-игр">Теория игр :</a></li>
+  <li><a href="#фракталы-и-хаос" id="toc-фракталы-и-хаос" class="nav-link" data-scroll-target="#фракталы-и-хаос">Фракталы и хаос :</a></li>
+  <li><a href="#нечеткая-логика" id="toc-нечеткая-логика" class="nav-link" data-scroll-target="#нечеткая-логика">Нечеткая логика :</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Академические статьи</h1>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 5, 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Ниже перечислены статьи по количественным исследованиям, которые публиковались в академических, инвестиционных и других журналах.</p>
+<section id="оценка-риска" class="level2">
+<h2 class="anchored" data-anchor-id="оценка-риска">Оценка риска :</h2>
+<p>[<a href="http://www.smartquant.com/references/VaR/var1.pdf">1</a>] Economic Implications of Using a Mean-VaR Model for Portfolio Selection: A Comparison with Mean-Variance Analysis, G.J.Alexander, A.M.Baptista, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var2.pdf">2</a>] Value-at-Risk: a Multivariate Switching Regime Approach, M.Billio, L.Pelizzon, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var3.pdf">3</a>] The Ten Great Challenges of Risk Management, C.Batlin and B.Schachter, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var4.pdf">4</a>] Value at Risk Models for Dutch Bond Portfolios, P.J.G.Vlaar, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var5.pdf">5</a>] Non-Linear Value-at-Risk, M.Britten-Jones and S.M.Schaefer, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var6.pdf">6</a>] Asset Allocation in a Value-at-Risk Framework, R.Huisman et.al, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var7.pdf">7</a>] Evaluation of Value-at-Risk Models Using Historical Data, D.Hendricks, 1996</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var8.pdf">8</a>] A Simplified Method for Calculating the Credit Risk of Lending Portfolios, A.Ieda et.al., 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var9.pdf">9</a>] Value at Risk Using Hyperbolic Distributions, C.Bauer, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var10.doc">10</a>] Market Risk: An Introduction to the Concept &amp; Analytics of Value-at-Risk, J.Frain and C.Meegan, 1996</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var11.pdf">11</a>] Using Value-at-Risk to Control Risk Taking: How Wrong Can You Be, X.Ju and N.D.Pearson, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var12.pdf">12</a>] Credit Risk Optimization with Conditional Value-at-Risk Criterion, F.Andersson and S.Uryasev, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var13.pdf">13</a>] An Integrated Market and Credit Risk Portfolio Model, I.Iscoe et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var14.pdf">14</a>] Assessing VaR Accuracy, K.Dowd, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var15.pdf">15</a>] Measuring DAX Market Risk: A Neural Network Volatility Mixture Approach, K.Bartlmae, F.A.Rauscher, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var16.pdf">16</a>] Value-at-Risk (VaR), S.Benninga and Z.Wiener, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var17.pdf">17</a>] Managing Market Risk in Banks, 1996</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var18.pdf">18</a>] Value-at-Risk and Extreme Returns, J.Danielsson et.al., 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var19.pdf">19</a>] Taking VaR to Pieces, M.Garman, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var20.pdf">20</a>] Optimization of Conditional Value-at-Risk, R.T.Rockafellar and S.Uryasev, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var21.ps">21</a>] An Overview of Value at Risk (1), D.Duffie and J.Pan, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var22.ps">22</a>] VaR Calculations for Derivatives (2), D.Duffie and J.Pan, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var23.ps">23</a>] Appendices (3), D.Duffie and J.Pan, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var24.ps">24</a>] Extreme Behavior of Diffusion Models in Finance, M.Borkovec, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var25.ps">25</a>] Value-at-Risk Analysis and Least Squares Tail Index Estimation, R.W.J van den Goorbergh, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var26.ps">26</a>] Equity Allocation and Portfolio Selection in Insurance: A Simplified Portfolio Model, E.Taflin, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var27.ps">27</a>] How to Measure Risk, G.Ch.Pflug, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var28.pdf">28</a>] Filtering Historical Simulation. Back-test Analysis, G.Barone-Adesi, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var29.pdf">29</a>] Conditional Value-at-Risk: Optimization Algorithms and Applications, S.Uryasev, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var30.pdf">30</a>] Non-Parametric VaR Techniques. Myths and Realities, G.Barone-Adesi, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/ar31.pdf">31</a>] Value-at-Risk When Daily Changes in Market Variables are Not Normally Distributed, J.Hull and A.White, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var32.pdf">32</a>] Incorporating Volatility Updating into the Historical Simulation Method for Value-at-Risk, J.Hull and A.White, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var33.pdf">33</a>] Horizon Problems and Extreme Events in Financial Risk Management, P.F.Christoffersen et.al., 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var34.pdf">34</a>] Portfolio Optimization with Conditional Value-at-Risk Objective and Constraints, J.Palmquist at.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var35.pdf">35</a>] Value-at-Risk Analysis of a Leveraged Swap, S.Srivastava, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var36.pdf">36</a>] Tracking Error and Value-at-Risk, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var37.pdf">37</a>] Value-at-Risk and Mixture Distributions, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var38.pdf">38</a>] Value-at-Risk: On the Stability and Forecasting of the Variance-Covariance Matrix, J.Engek and M.Gizycki, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var39.ps">39</a>] References from D.Duffie and J.Pan, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var40.pdf">40</a>] Monte Carlo within a Day, J.Cardenas et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var41.pdf">41</a>] An Analysis Framework for Bank Capital Allocation, N.Baud et.al, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var42.pdf">42</a>] VaR and the Unreal World, R.Hoppe, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var43.ps">43</a>] Extreme Value Theory in Finance and Ensurance, P.Embrechts, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var44.pdf">44</a>] Developing Scenarios for Future Extreme Losses Using the POT Model, A.J.McNeil and T.Saladin, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var45.ps">45</a>] Extreme Value Theory as a Risk Management Tool, P.Embrechts et.al., 1996</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var46.pdf">46</a>] Value-at-Risk Analysis of Stock Returns. Historical Simulations, Variance Technique or Tail Index Estimation, R. van den Goorbergh and P.Vlaar, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var47.pdf%22">47</a>] Finding Optimal Portfolios with Constraints on Value-at-Risk, A.A.Gaivoronski and G.Pflug, 1998<br>
+Decomposing Portfolio Value-at-Risk: A General Analysis, W.G.Hallerbach, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var49.pdf">49</a>] Value-at-Risk in Portfolio Management, P.Gugi et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var50.pdf">50</a>] Estimating Value-at-Risk with a Precision Measure by Combining Kernel Estimation with Historical Simulations, J.S.Butler and B.Schachter, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var51.pdf">51</a>] Value-at-Risk and Derivatives Risk, E.Falkenstein, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var52.ps">52</a>] Measuring Risk with Extreme Value Theory, R.L.Smith, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var53.pdf">53</a>] Reliability of Neural Network Based Value-at-Risk Estimates, R.Prinzler, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var54.pdf">54</a>] Value-at-Risk for Asset managers, C.L.Culp et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var55.pdf">55</a>] Analytical Value-at-Risk with Jumps and Credit Risk, D.Duffie and J.Pan, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var56.pdf">56</a>] Portfolio Selection with Limited Downside Risk, D.W.Jasen et.al., 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var57.pdf">57</a>] Comparing Different Methods for Estimating Value-at-Risk (VaR) for Actual Non-Linear Portfolios: Empirical Evvidence, M.Coronado, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var58.pdf">58</a>] Value-at-Risk Based Portfolio Optimization, A.V.Puelz, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var59.pdf">59</a>] A Probabilistic Approach to Worst Case Scenarios, G.Barone-Adesi et.al, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var60.pdf">60</a>] Bank Capital and Value-at-Risk, P.Jackson et.al., 1998</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var61.pdf">61</a>] Recovery Risk in Stock Returns, A.Akgun and R.Gibson, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/62.pdf">62</a>] Extreme Value Thory for Tail-Related Risk Measures, R.Kellezi and M.Gilli, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var63.pdf">63</a>] Evolution of Market Uncertainty around Earnings Announcements, D.Isakov, C.Perignon, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/VaR/var64.pdf">64</a>] New Insights into Smile, Mispricing and Value at Risk: the Hyperbolic Model, E.Eberlein and U.Keller, 1997</p>
+</section>
+<section id="оценка-волатильности" class="level2">
+<h2 class="anchored" data-anchor-id="оценка-волатильности">Оценка волатильности :</h2>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol1.pdf">1</a>] Exchange Rate Returns Standardized by Realized Volatility are (Nearly) Gaussian T.Andersen et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol2.pdf">2</a>] Towards a Theory of Volatility Trading, P.Carr and D.Madan, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol3.pdf">3</a>] Forecasting S&amp;P 100 Volatility: The Increment Information Content of Implied Volatilities and High Frequency Index Returns, B.J.Blair et.al., 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol4.pdf">4</a>] Derivatives on Volatility: Some Simple Solutions Based on Observables, S.L.Hestib and S.Nandi, 2000<br>
+[<a href="http://www.smartquant.com/references/Volatility/vol5.pdf">5</a>] Consequences for Option Pricing of a Long Memory in Volatility, S.J.Taylor, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol6.pdf">6</a>] Forward rate Volatilities, SWAP Rate Volatilities, and the Implementation of the LIBOR Market Model, J.Hull and A.White, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol7.pdf">7</a>] Nonlinear Features of Realized FX Volatility, J.Maheu and T.McCurdy, 2001</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol8.pdf">8</a>] Volatility Dynamics under Duration-dependent Mixing, J.Maheu and T.McCurdy, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol9.pdf">9</a>] Identifying Bull and Bear Markets in Stock Returns, J.maheu and T.McCurdy, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol10.pdf">10</a>] Modeling and Forecasting Realized Volatility, T.Andersen et.al., 2001</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol11.pdf">11</a>] The Realized Volatility of FTSE-100 Futures Prices, N.Areal and S.Taylor, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol12.pdf">12</a>] The Dynamics of Stochastic Volatility: Evidence from Underlying and Option Markets, C.S.Jones, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol13.pdf">13</a>] Dynamic Hedging in a Volatile Market, T.F.Coleman et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol14.pdf">14</a>] Implied Trinomial Trees of the Volatility Smile, E.Derman et.al., 1996</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol15.pdf">15</a>] Expectations Hypothesis of the Term Structure of Implied Volatility: Re-examination, S.Byoun et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol16.pdf">16</a>] The Price of a Smile: Hedging and Spanning in Option Markets, A.Buraschi and J.jackwerth, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol17.pdf">17</a>] Implied Volatility Skews and Stock index Skewness and Kurtosis Implied by S&amp;P500 Index Option Prices, C.J.Corrado and t.Su, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol18.pdf">18</a>] The Distribution of Stock Return Volatility, T.G.Andersen et.al., 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol19.pdf">19</a>] Modeling and Forecasting Realized Volatility, T.G.Andersen et.al., 2001</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol20.pdf">20</a>] The Distribution of Exchange Rate Volatility, T.G.Andersen et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol21.pdf">21</a>] Forecasting S&amp;P 100 Volatility: The Incremental Information Content of Implied Volatilities and High Frequency Index Returns, B.J.Blair et.al., 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol22.pdf">22</a>] Forecasting the Variability of Stock Index Returns with Stochastic Volatility Models and Implied Volatility, E.Hol and S.L.Koopman, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol23.pdf">23</a>] Tree Structured GARCH Models, F.Audrino and P.Buhlmann, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Volatility/vol24.pdf">24</a>] Nonparametric GARCH Models, P.Buhlmann and A.J.McNeil, 1999</p>
+</section>
+<section id="паттерны" class="level2">
+<h2 class="anchored" data-anchor-id="паттерны">Паттерны :</h2>
+<p>[<a href="http://www.smartquant.com/references/PatternRecognition/pattern1.pdf">1</a>] Systematic Patterns Before and After Large Price Changes: Evidence From High Frequency Data from Paris Bourse, F.Hamelink, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/PatternRecognition/pattern2.pdf">2</a>] Predictable Patterns in Stock Returns, T.Hellstrom, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/PatternRecognition/pattern3.pdf">3</a>] Asymmetric Cross-Sectional Dispersion in Stock Returns: Evidence and Implications, G.R.Duffee, 2000</p>
+</section>
+<section id="арбитражная-торговля" class="level2">
+<h2 class="anchored" data-anchor-id="арбитражная-торговля">Арбитражная торговля :</h2>
+<p>[<a href="http://www.smartquant.com/references/Arbitrage/arbitrage1.pdf">1</a>] From Utility Maximization to Arbitrage Pricing and Back, A.E.MacKay, E.Z.Prisman, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Arbitrage/arbitrage2.pdf">2</a>] Beyond Arbitrage: Good-Deal Asset Price Bounds in Incomplete Markets, J.H.Cochrane and J.Saa-Requejo, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/Arbitrage/arbitrage3.pdf">3</a>] Insider Information, Arbitrage and Optimal Portfolio and Consumption Policies, M.Rindisbacher, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/Arbitrage/arbitrage4.pdf">4</a>] Option Pricing, Arbitrage and Martingales, A.Pelsser and T.Vorst, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/Arbitrage/arbitrage5.pdf">5</a>] A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification in High-Frequency Data, P.J.Bolland and J.T.Connor, 1996</p>
+</section>
+<section id="нейронные-сети" class="level2">
+<h2 class="anchored" data-anchor-id="нейронные-сети">Нейронные сети :</h2>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural1.pdf">1</a>] Feedforward and Recurrent Neural Networks and Genetic Programs for Stock Market and Time Series Forecasting, P.C.McCluskey, 1993</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural2.pdf">2</a>] Clustering of the Self-Organizing Map , Juha Vesanto , 2000</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural3.pdf">3</a>] The Learning Vector Quantization Program Package, T.Kohonen, 1996</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural4.ps">4</a>] A Neural Network Model for Gold Market, P.J.McCann, B.L.Kalman,1993</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural5.pdf">5</a>] Prediction Risk and Architecture Selection for Neural Networks, J.Moody, 1994</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural6.pdf">6</a>] Economic Forecasting: Challenges and Neural Network Solutions, J.Moody, 1995</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural7.pdf">7</a>] Neural Networks in Economics: Background, Applications and New Developments, R.Herbrich et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural8.pdf">8</a>] Incorporating Prior Knowledge About Financial Markets Through Neural Multitask Learning, K.Bartlmae et.al., 1995</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural9.pdf">9</a>] Neural Networks for Time Series Processing, G.Dorffner, 1996</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural10.pdf">10</a>] Stock Price Prediction Using Neural Networks, F.W.Op’t Landt, MSc. thesis, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural11.ps.gz">11</a>] Rprop — Description and Implementation Details, M.Riedmiller, 1994</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural12.ps">12</a>] The Self-Organizing Map Program Package, T.Kohonen, 1996</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural13.pdf">13</a>] On the Analysis of Pattern Sequences by Self-Organizing Maps, J.Kangas, 1994</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural14.ps">14</a>] Dependency Analysis and Neural Network Modeling of Currency Exchange Rates, I.Pi, 1993</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural15.pdf">15</a>] Forecasting the 30-year U.S. Treasury Bond with a System of Neural Networks, W.Cheng et.al., 1996</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural16.pdf">16</a>] Optimal Asset Allocation using Adaptive Dynamic Programming, R.Neunejer, 1995</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural17.pdf">17</a>] A Nonparametric Approach to Pricing and Hedging Derivative Securities Via Learning Networks, J.M.Hutchinson et.al., 1994</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural18.pdf">18</a>] Comparative Study of Stock Trend Prediction Using Time Delay, Recurrent and Probabilistic Neural Networks , Danil V. Prokhorov, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural19.pdf">19</a>] Forecasting Financial Markets using Neural Networks: an Analysis of Methods and Accuracy, J.Kutsurelis, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural20.pdf">20</a>] On Developing a Financial Prediction System: Pitfalls and Possibilities , Stefan Zemke</p>
+<p>[<a href="http://www.smartquant.com/references/NeuralNetworks/neural21.pdf">21</a>] A Case Study on Using Neural Networks to Perform Technical Forecasting on FOREX, J.Yao and C.Tan, 1999</p>
+</section>
+<section id="монте-карло-симуляции" class="level2">
+<h2 class="anchored" data-anchor-id="монте-карло-симуляции">Монте-карло симуляции :</h2>
+<p>[<a href="http://www.smartquant.com/references/MonteCarlo/mc2.pdf">1</a>] Efficient Monte Carlo Pricing of Basket Options, P.Bellizzari, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/MonteCarlo/mc5.pdf">2</a>] Path Generation for Quasi-Monte Carlo Simulation of Mortgage Backed Securities, F.Akersson and J.Lehoczky, 2000</p>
+<p>[<a href="http://www.smartquant.com/references/MonteCarlo/mc6.pdf">3</a>] Applications of Monte Carlo/Quasi-Monte Carlo Methods in Finance: Option Pricing, Y.Lai and J.Spanier, 1999</p>
+<p>[<a href="http://www.smartquant.com/references/MonteCarlo/mc7.pdf">4</a>] Variance Reduction of Monte Carlo and Randomized Quasi-Monte Carlo Estimators for Stochastic Volatility Models in Finance, H.Ben Ameur et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/MonteCarlo/mc8.pdf">5</a>] Markov Chain Monte Carlo Calibration of Stochastic Volatility Models, X.Ge and C.Ji, 2000</p>
+</section>
+<section id="теория-игр" class="level2">
+<h2 class="anchored" data-anchor-id="теория-игр">Теория игр :</h2>
+<p>[<a href="http://www.smartquant.com/references/GameTheory/gametheory1.pdf">1</a>] Finance Applications of Game Theory, F.Allen, S.Morris, 1998</p>
+</section>
+<section id="фракталы-и-хаос" class="level2">
+<h2 class="anchored" data-anchor-id="фракталы-и-хаос">Фракталы и хаос :</h2>
+<p>[<a href="http://www.smartquant.com/references/Chaos/chaos2.pdf">1</a>] Interdisciplinary Application of Nonlinear Time Series Methods, T.Schreiber, 1998</p>
+<p>[<a href="http://www.smartquant.com/references/Chaos/chaos3.pdf">2</a>] Kolmogorov Entropy from Time Series using Information-Theoretic Functionals, M.palus, 1997</p>
+<p>[<a href="http://www.smartquant.com/references/Chaos/chaos4.pdf">3</a>] Chaotic time series. Part I: Estimation of some Invariant Properties in State Space, D.Kugiumtzis et.al., 1995</p>
+<p>[<a href="http://www.smartquant.com/references/Chaos/chaos17.pdf">4</a>] Apparent Multifractality in Financial Time Series, J.P.Bouchaud, et.al., 1999</p>
+<p>[<a href="http://www.smartquant.com/references/Chaos/chaos18.pdf">5</a>] Is There Chaos in the World Economy? A Test Using Nonparametric Regression, M.Shintanim and O.Linton, 2000</p>
+</section>
+<section id="нечеткая-логика" class="level2">
+<h2 class="anchored" data-anchor-id="нечеткая-логика">Нечеткая логика :</h2>
+<p>[<a href="http://www.smartquant.com/references/FuzzyLogic/fuzzy1.pdf">1</a>] Dynamic Financial Forecasting with Automatically Induced Fuzzy Associations, Y.Romahi and Q.Shen,&nbsp; 2000</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2003-2025, Qt</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
