@@ -11,6 +11,14 @@ website:
     left:
       - text: AM
         file: index.qmd
+      - text: Статьи
+        file: posts/index.html
+      - text: Знания
+        file: knowledge.html
+      - text: Сервисы
+        file: services.html
+      - text: Сообщество
+        file: social.html
 
     logo: black_final.png
     
@@ -53,9 +61,9 @@ format:
         icon: discord
         text: Сообщество
 
-#  pdf:
-#    link-citations: true
-#    number-sections: false
+  # pdf:
+  #  link-citations: true
+  #  number-sections: false
 
 #  docx:
 #    reference-doc: custom-reference.docx
