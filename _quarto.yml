@@ -53,12 +53,12 @@ format:
         icon: discord
         text: Сообщество
 
-  pdf:
-    link-citations: true
-    number-sections: false
+#  pdf:
+#    link-citations: true
+#    number-sections: false
 
-  docx:
-    reference-doc: custom-reference.docx
+#  docx:
+#    reference-doc: custom-reference.docx
    
 metadata:
    # pagetitle: "{{< meta title >}}"
