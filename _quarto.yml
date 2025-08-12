@@ -13,29 +13,77 @@ website:
         file: index.qmd
       - text: Статьи
         file: posts/index.html
-      - text: Знания
-        file: knowledge.html
+  #    - text: Знания
+  #      file: knowledge.html
       - text: Сервисы
         file: services.html
-      - text: Сообщество
-        file: social.html
+  #    - text: Сообщество
+  #      file: social.html
+      # - text: Доступ
+      #  file: access.html
+      
+    #  - text: Услуги
+     #   menu:
+        
+        #  text: Статьи
+        #  file: posts/index.html
+       # - text: Знания
+      #    file: knowledge.html
+      #  - text: Сервисы
+      #    file: services.html
+      #  - text: Сообщество
+      #    file: social.html
+      #  - text: Доступ
+      #    file: access.html
+          
+    #  - text: Статьи
+    #    file: posts/index.html
 
-    logo: black_final.png
+    # right:
+  #    - text: Контакты
+  #      menu:   
+          
+  #        - icon: envelope-fill
+  #          text: Mail
+  #          href: mailto:info@vector-am.ru
+  #        - icon: github
+  #          text: Github
+  #          href: https://github.com/Ragve-hub
+  #        - icon: substack 
+  #          text: Substack
+  #          href: https://qtreport.substack.com/
     
-
-
+    
+    
+    
+    # logo: black_final.png
+    tools:
+    - icon: envelope-fill
+      href: mailto:info@vector-am.ru
+    - icon: github
+      href: https://github.com/Ragve-hub
+    - icon: substack 
+      href: https://qtreport.substack.com/
+    #   - icon: plus-circle-fill
+    #    href: https://forms.gle/2b8XDbXgsbq8uULp8
+    
+    
+    
      
 
       
   page-footer: 
-    left: "Copyright 2003-2025, Qt" 
-    right: 
+    left: "© 2003-2025, Qt" 
+    
+    right:
+      - icon: envelope-fill
+        href: mailto:info@vector-am.ru
       - icon: github
-        href: https://github.com/
-      - icon: twitter 
-        href: https://twitter.com/ 
-      - icon: rss-fill
-        href: news.xml
+        href: https://github.com/Ragve-hub
+      - icon: substack 
+        href: https://qtreport.substack.com/ 
+    #  - icon: plus-circle-fill
+    #    href: https://forms.gle/2b8XDbXgsbq8uULp8
 
     
         
@@ -43,23 +91,28 @@ format:
   html:
     theme: seem.scss
     highlight-style: seem.theme
-    other-links:
-      - href: posts/index.html
-        icon: bookmark
-        text: Статьи
+    # other-links:
+    #  - href: posts/index.html
+    #    icon: bookmark
+    #    text: Статьи
 
 
-      - href: knowledge.html
-        icon: book
-        text: Знания
+    #  - href: knowledge.html
+    #    icon: book
+    #    text: Знания
 
-      - href: services.html
-        icon: sliders
-        text: Сервисы
+     # - href: services.html
+    #    icon: activity
+    #    text: Сервисы
       
-      - href: social.html
-        icon: discord
-        text: Сообщество
+     # - href: social.html
+    #    icon: flag
+    #    text: Сообщество
+        
+     # - href: access.html
+    #    icon: plus-circle
+    #    text: Доступ
+
 
   # pdf:
   #  link-citations: true
