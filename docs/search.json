@@ -1530,14 +1530,14 @@
     "href": "knowledge.html#будут-затронуты-следующие-темы",
     "title": "Знания",
     "section": "Будут затронуты следующие темы:",
-    "text": "Будут затронуты следующие темы:\n\nDrummond geometry\nClyde lee patterns\nTiming\nBacktesting\nAlgoframework R or C#\nLifycycle and robust of trading strategy development\nMomentum and Mean Reversal strategies\nQuanitative Momentum strategies"
+    "text": "Будут затронуты следующие темы:\n\nDrummond geometry\nClyde lee patterns\nTiming\nBacktesting\nAlgo-framework R or C#\nLifecycle and robust of trading strategy development\nMomentum and Mean Reversal strategies\nQuantitative Momentum strategies"
   },
   {
     "objectID": "services.html",
     "href": "services.html",
     "title": "Сервисы",
     "section": "",
-    "text": "cервисы представляют из себя интерактивные дашбоард (Shiny R) c доступом к данным в реальном времени."
+    "text": "Cервисы представляют из себя интерактивные дашбоард (Shiny R) c доступом к данным в реальном времени."
   },
   {
     "objectID": "services.html#о",
@@ -1566,5 +1566,47 @@
     "title": "Сервисы",
     "section": "Список",
     "text": "Список\n\nDrummond geometry\nClyde lee pattern\nOptions\nBayesian prediction. Markov Chain. Entropy"
+  },
+  {
+    "objectID": "access.html",
+    "href": "access.html",
+    "title": "Доступ",
+    "section": "",
+    "text": "Сервис\nЦена\nПериодичность\n\n\n\n\nЗнания (за курс)\n$1000\n\nодин раз\n\n\n\nСообщество\n$500\n\nодин раз в год\n\n\n\nСервисы\n$500\n\nодин раз в год"
+  },
+  {
+    "objectID": "access.html#о-доступе",
+    "href": "access.html#о-доступе",
+    "title": "Доступ",
+    "section": "",
+    "text": "На платной основе предоставляется доступ к следующим разделам сайта:\n\nЗнания\nСервисы\nСообщество"
+  },
+  {
+    "objectID": "access.html#список",
+    "href": "access.html#список",
+    "title": "Доступ",
+    "section": "Список",
+    "text": "Список\n\nЗнания\nСервисы\nСообщество"
+  },
+  {
+    "objectID": "access.html#доступ-к-сервисам",
+    "href": "access.html#доступ-к-сервисам",
+    "title": "Доступ",
+    "section": "Доступ к сервисам",
+    "text": "Доступ к сервисам\nПосле заполнения анкеты вам на электронную почту придёт информация о продукте и об оплате. При завершении всех процедур вы получите доступ к услугам."
+  },
+  {
+    "objectID": "access.html#основные-шаги",
+    "href": "access.html#основные-шаги",
+    "title": "Доступ",
+    "section": "Основные шаги",
+    "text": "Основные шаги\n\nЗаполнить анкету.\nПолучить ответное письмо с дополнительной информацией, и реквизитами для оплаты.\nОплатить счёт.\nПолучить доступ."
+  },
+  {
+    "objectID": "access.html#цены-на-отдельные-услуги",
+    "href": "access.html#цены-на-отдельные-услуги",
+    "title": "Доступ",
+    "section": "",
+    "text": "Сервис\nЦена\nПериодичность\n\n\n\n\nЗнания (за курс)\n$1000\n\nодин раз\n\n\n\nСообщество\n$500\n\nодин раз в год\n\n\n\nСервисы\n$500\n\nодин раз в год"
   }
 ]
