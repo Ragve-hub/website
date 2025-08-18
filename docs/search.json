@@ -88,7 +88,7 @@
     "href": "posts/index.html",
     "title": "Vector",
     "section": "",
-    "text": "Контент содержит численные исследования финансового и экономического характера, проливающие свет на закономерности поведения биржевых цен в различных временных масштабах.\nКод публикуется для решения конкретных задач алгоритмической торговли. Языки программирования R, C#.\nГотовые идеи, и торговые стратегии не будут находиться в открытом доступе. Только примеры, и полезная информация на “подумать”.\n\n\n\n\n\n\n\n\n\n\nПрирода решения физических задач\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-08-02\n\n\n6 min\n\n\n\n\n\n\n\nФактор стоимости. CAPE\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-07-14\n\n\n2 min\n\n\n\n\n\n\n\nВолатильность 30/60/90 дней\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2022-06-25\n\n\n1 min\n\n\n\n\n\n\n\nРасчет кастом breadth индикаторов\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2022-06-11\n\n\n2 min\n\n\n\n\n\n\n\nИмпульс отрасли. Танцы на пузырях\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-06-10\n\n\n1 min\n\n\n\n\n\n\n\nАрбитраж акций футбольных клубов\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-05-13\n\n\n1 min\n\n\n\n\n\n\n\nИсследование полного лога заявок\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2022-05-02\n\n\n6 min\n\n\n\n\n\n\n\nАномалии начисления\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-04-25\n\n\n2 min\n\n\n\n\n\n\n\nЛекции Кирилла Ильинского\n\n\n\n\n\n\nВидео\n\n\n\n\n\n\n2022-04-25\n\n\n1 min\n\n\n\n\n\n\n\nЛиквидность в стакане\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-04-21\n\n\n1 min\n\n\n\n\n\n\n\nЧашка чая\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-04-20\n\n\n1 min\n\n\n\n\n\n\n\nИзвлеченные уроки\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-29\n\n\n1 min\n\n\n\n\n\n\n\nВопросы важнее ответов\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-28\n\n\n1 min\n\n\n\n\n\n\n\n16 Мета паттернов\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-27\n\n\n1 min\n\n\n\n\n\n\n\nКлюч\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-26\n\n\n1 min\n\n\n\n\n\n\n\nПогружения второго порядка\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-25\n\n\n1 min\n\n\n\n\n\n\n\nАксиома малого преимущества\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-24\n\n\n1 min\n\n\n\n\n\n\n\nПремия за ребалансировку\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-03-03\n\n\n2 min\n\n\n\n\n\n\n\nСтратегии из академических работ\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-02-02\n\n\n1 min\n\n\n\n\n\n\n\nОвернайт доходность\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-01-09\n\n\n1 min\n\n\n\n\n\n\n\nРыночный сентимент и аномалии\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-01-06\n\n\n1 min\n\n\n\n\n\n\n\nФильтрация активов по условию\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-21\n\n\n2 min\n\n\n\n\n\n\n\nИмпорт данных из csv файла\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-20\n\n\n10 min\n\n\n\n\n\n\n\nПостроение баров из trades\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-19\n\n\n8 min\n\n\n\n\n\n\n\nОтмена ордера по таймеру\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-18\n\n\n2 min\n\n\n\n\n\n\n\nДневная реверсия\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-11-27\n\n\n2 min\n\n\n\n\n\n\n\nО возврате к среднему\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-11-25\n\n\n2 min\n\n\n\n\n\n\n\nЧтение и запись данных в Excel\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-11-15\n\n\n2 min\n\n\n\n\n\n\n\nПредзагрузка данных в стратегию\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-11-07\n\n\n1 min\n\n\n\n\n\n\n\nО моментуме\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-10-21\n\n\n4 min\n\n\n\n\n\n\n\nBrutforce оптимизация + Wfa\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-10-03\n\n\n5 min\n\n\n\n\n\n\n\nАрбитраж a vs b\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-10-02\n\n\n2 min\n\n\n\n\n\n\n\nРасчет средней цены\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-10-01\n\n\n3 min\n\n\n\n\n\n\n\nИмпорт данных в Quantbase\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-10-01\n\n\n1 min\n\n\n\n\n\n\n\nАнализ данных за разные периоды времени\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-09-29\n\n\n2 min\n\n\n\n\n\n\n\nИмпорт внешних данных\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-09-28\n\n\n5 min\n\n\n\n\n\n\n\nАкадемические исследователи\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-09-21\n\n\n4 min\n\n\n\n\n\n\n\nДинамика корреляции фьючерсов к RI\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-09-10\n\n\n1 min\n\n\n\n\n\n\n\nСтатистика разворотов индексов Moex\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-09-09\n\n\n1 min\n\n\n\n\n\n\n\nАкадемические статьи\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-09-05\n\n\n9 min\n\n\n\n\n\n\n\nГрафик/паттерны point & figure\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-07-26\n\n\n1 min\n\n\n\n\n\n\n\nИндикатор momersion by Michael Harris\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-07-25\n\n\n1 min\n\n\n\n\n\n\n\nСкачивание открытых позиций MOEX\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-07-24\n\n\n1 min\n\n\n\n\n\n\n\nМоделирование торгов методом Монте-Карло\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-03-04\n\n\n1 min\n\n\n\n\n\n\n\nСезонные закономерности Индекса РТС\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-02-15\n\n\n3 min\n\n\n\n\n\n\n\nТри сезонных стратегии Brent/Wti 1983-2017\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-01-21\n\n\n1 min\n\n\n\n\n\n\n\n188 календарных аномалий. S&P, DAX, NIKKEI\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-01-10\n\n\n1 min\n\n\n\n\n\n\n\nСравнение доходностей (daily/intraday/overnight) разных активов\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-01-06\n\n\n1 min\n\n\n\n\n\n\n\nЭкономическая ортодоксальность\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2020-09-23\n\n\n1 min\n\n\n\n\n\n\n\nО предвзятости\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2020-09-15\n\n\n3 min\n\n\n\n\n\n\n\nВнутридневная реверсия\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2020-09-15\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Контент содержит численные исследования финансового и экономического характера, проливающие свет на закономерности поведения биржевых цен в различных временных масштабах.\nКод публикуется для решения конкретных задач алгоритмической торговли. Языки программирования R, C#.\nГотовые идеи, и торговые стратегии не будут находиться в открытом доступе. Только примеры, и полезная информация на “подумать”.\n\n\n\n\n\n\n\n\n\n\nПрирода решения физических задач\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-08-02\n\n\n6 min\n\n\n\n\n\n\n\nФактор стоимости. CAPE\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-07-14\n\n\n2 min\n\n\n\n\n\n\n\nВолатильность 30/60/90 дней\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2022-06-25\n\n\n1 min\n\n\n\n\n\n\n\nРасчет кастом breadth индикаторов\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2022-06-11\n\n\n2 min\n\n\n\n\n\n\n\nИмпульс отрасли. Танцы на пузырях\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-06-10\n\n\n1 min\n\n\n\n\n\n\n\nАрбитраж акций футбольных клубов\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-05-13\n\n\n1 min\n\n\n\n\n\n\n\nИсследование полного лога заявок\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2022-05-02\n\n\n6 min\n\n\n\n\n\n\n\nАномалии начисления\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-04-25\n\n\n2 min\n\n\n\n\n\n\n\nЛекции Кирилла Ильинского\n\n\n\n\n\n\nВидео\n\n\n\n\n\n\n2022-04-25\n\n\n1 min\n\n\n\n\n\n\n\nЛиквидность в стакане\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-04-21\n\n\n1 min\n\n\n\n\n\n\n\nЧашка чая\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-04-20\n\n\n1 min\n\n\n\n\n\n\n\nИзвлеченные уроки\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-29\n\n\n1 min\n\n\n\n\n\n\n\nВопросы важнее ответов\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-28\n\n\n1 min\n\n\n\n\n\n\n\n16 Мета паттернов\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-27\n\n\n1 min\n\n\n\n\n\n\n\nКлюч\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-26\n\n\n1 min\n\n\n\n\n\n\n\nПогружения второго порядка\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-25\n\n\n1 min\n\n\n\n\n\n\n\nАксиома малого преимущества\n\n\n\n\n\n\nМета\n\n\n\n\n\n\n2022-03-24\n\n\n1 min\n\n\n\n\n\n\n\nПремия за ребалансировку\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-03-03\n\n\n2 min\n\n\n\n\n\n\n\nСтратегии из академических работ\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-02-02\n\n\n1 min\n\n\n\n\n\n\n\nОвернайт доходность\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-01-09\n\n\n1 min\n\n\n\n\n\n\n\nРыночный сентимент и аномалии\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2022-01-06\n\n\n1 min\n\n\n\n\n\n\n\nФильтрация активов по условию\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-21\n\n\n2 min\n\n\n\n\n\n\n\nИмпорт данных из csv файла\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-20\n\n\n10 min\n\n\n\n\n\n\n\nПостроение баров из trades\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-19\n\n\n8 min\n\n\n\n\n\n\n\nОтмена ордера по таймеру\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-12-18\n\n\n2 min\n\n\n\n\n\n\n\nДневная реверсия\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-11-27\n\n\n2 min\n\n\n\n\n\n\n\nО возврате к среднему\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-11-25\n\n\n2 min\n\n\n\n\n\n\n\nЧтение и запись данных в Excel\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-11-15\n\n\n2 min\n\n\n\n\n\n\n\nПредзагрузка данных в стратегию\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-11-07\n\n\n1 min\n\n\n\n\n\n\n\nПредыстория 1977-1997\n\n\n\n\n\n\nSwingmachine\n\n\n\n\n\n\n2021-11-04\n\n\n1 min\n\n\n\n\n\n\n\nХарактеристика паттернов\n\n\n\n\n\n\nSwingmachine\n\n\n\n\n\n\n2021-11-03\n\n\n1 min\n\n\n\n\n\n\n\nГрафик. Вложенные паттерны\n\n\n\n\n\n\nSwingmachine\n\n\n\n\n\n\n2021-11-02\n\n\n1 min\n\n\n\n\n\n\n\nСтатистика c 2009. Фьючерс РТС\n\n\n\n\n\n\nSwingmachine\n\n\n\n\n\n\n2021-11-01\n\n\n1 min\n\n\n\n\n\n\n\nСтруктура c 2009. Фьючерс РТС\n\n\n\n\n\n\nSwingmachine\n\n\n\n\n\n\n2021-10-30\n\n\n1 min\n\n\n\n\n\n\n\nТраектории c 2009. Фьючерс РТС\n\n\n\n\n\n\nSwingmachine\n\n\n\n\n\n\n2021-10-29\n\n\n1 min\n\n\n\n\n\n\n\nО моментуме\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-10-21\n\n\n4 min\n\n\n\n\n\n\n\nBrutforce оптимизация + Wfa\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-10-03\n\n\n5 min\n\n\n\n\n\n\n\nАрбитраж a vs b\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-10-02\n\n\n2 min\n\n\n\n\n\n\n\nРасчет средней цены\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-10-01\n\n\n3 min\n\n\n\n\n\n\n\nИмпорт данных в Quantbase\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-10-01\n\n\n1 min\n\n\n\n\n\n\n\nАнализ данных за разные периоды времени\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-09-29\n\n\n2 min\n\n\n\n\n\n\n\nИмпорт внешних данных\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-09-28\n\n\n5 min\n\n\n\n\n\n\n\nАкадемические исследователи\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-09-21\n\n\n4 min\n\n\n\n\n\n\n\nДинамика корреляции фьючерсов к RI\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-09-10\n\n\n1 min\n\n\n\n\n\n\n\nСтатистика разворотов индексов Moex\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-09-09\n\n\n1 min\n\n\n\n\n\n\n\nАкадемические статьи\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2021-09-05\n\n\n9 min\n\n\n\n\n\n\n\nГрафик/паттерны point & figure\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-07-26\n\n\n1 min\n\n\n\n\n\n\n\nИндикатор momersion by Michael Harris\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-07-25\n\n\n1 min\n\n\n\n\n\n\n\nСкачивание открытых позиций MOEX\n\n\n\n\n\n\nR\n\n\n\n\n\n\n2021-07-24\n\n\n1 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N2\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-07-11\n\n\n1 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N1\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-07-10\n\n\n2 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N4\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-07-09\n\n\n1 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N3\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-07-08\n\n\n1 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N2\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-07-06\n\n\n1 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N1\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-07-05\n\n\n1 min\n\n\n\n\n\n\n\nПортфель стратегий Brent by Jonh Gold\n\n\n\n\n\n\nMulticharts\n\n\n\n\n\n\n2021-06-15\n\n\n1 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N4\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-04-11\n\n\n1 min\n\n\n\n\n\n\n\nФьючерс РТС. Стратегия N3\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-03-11\n\n\n1 min\n\n\n\n\n\n\n\n5% Down-In-One-Day Panic Recovery\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2021-03-10\n\n\n2 min\n\n\n\n\n\n\n\nМоделирование торгов методом Монте-Карло\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-03-04\n\n\n1 min\n\n\n\n\n\n\n\nБэктест индикатора Флэт/тренд by Jurik Research\n\n\n\n\n\n\nMulticharts\n\n\n\n\n\n\n2021-03-01\n\n\n1 min\n\n\n\n\n\n\n\nБэктест фонарика новичка by Oldman\n\n\n\n\n\n\nMulticharts\n\n\n\n\n\n\n2021-02-25\n\n\n1 min\n\n\n\n\n\n\n\nСезонные закономерности Индекса РТС\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-02-15\n\n\n3 min\n\n\n\n\n\n\n\nТри сезонных стратегии Brent/Wti 1983-2017\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-01-21\n\n\n1 min\n\n\n\n\n\n\n\n188 календарных аномалий. S&P, DAX, NIKKEI\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-01-10\n\n\n1 min\n\n\n\n\n\n\n\nСравнение доходностей (daily/intraday/overnight) разных активов\n\n\n\n\n\n\nИсследования\n\n\n\n\n\n\n2021-01-06\n\n\n1 min\n\n\n\n\n\n\n\nЭкономическая ортодоксальность\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2020-09-23\n\n\n1 min\n\n\n\n\n\n\n\nО предвзятости\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2020-09-15\n\n\n3 min\n\n\n\n\n\n\n\nВнутридневная реверсия\n\n\n\n\n\n\nРекомендации\n\n\n\n\n\n\n2020-09-15\n\n\n2 min\n\n\n\n\n\n\n\nАкции. Гэп 2%\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2020-07-16\n\n\n1 min\n\n\n\n\n\n\n\nСтратегия боллинджер\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2020-06-03\n\n\n2 min\n\n\n\n\n\n\n\nСтратегия пробой с 4% лимитом\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2020-05-05\n\n\n2 min\n\n\n\n\n\n\n\nСтратегия продажи после 4 дней роста.\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2020-03-12\n\n\n2 min\n\n\n\n\n\n\n\nСтратегия медленной черепахи\n\n\n\n\n\n\nC#\n\n\n\n\n\n\n2020-02-09\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "services.html",
@@ -1139,5 +1139,509 @@
     "title": "Природа решения физических задач",
     "section": "Еще можно почитать:",
     "text": "Еще можно почитать:\n\nThe role of deliberate practice in the acquisition of expert performance\nHow to solve it: A new aspect of mathematical method\nA Detailed Characterization of the Expert Problem-Solving Process in Science and Engineering: Guidance for Teaching and Assessment\nImproved Learning in a Large-Enrollment Physics Class\nTransforming a fourth year modern optics course using a deliberate practice framework\nEvaluating the problem-solving skills of graduating chemical engineering students\nDeveloping scientific decision making by structuring and supporting student agency\nActive learning in a graduate quantum field theory course\nInventing to Prepare for Future Learning: The Hidden Efficiency of Encouraging Original Student Production in Statistics Instruction"
+  },
+  {
+    "objectID": "posts/2020-02-09-slturtle.html",
+    "href": "posts/2020-02-09-slturtle.html",
+    "title": "Стратегия медленной черепахи",
+    "section": "",
+    "text": "Реализация, показанная ниже, основана на книге Альтучера, в которой используются собственные скользящие средние за 22 недели (100 дней) и за 55 недель (385 дней).\nЭто то, что он называет стратегией «медленной черепахи», которая предназначена для улавливания очень длинных (и основных) тенденций.\nОн делает это, используя очень длинные скользящие средние. В оригинальной системе Turtle использовались более короткие средние.\nВ этой реализации с одним состоянием (всегда присутствующей на рынке) есть три интересных момента. Он использует очень длинные скользящие средние (100 и 385 дней).\nТоргует только утром в понедельник и меняет существующие позиции, покупая или продавая торговый объем, который в два раза превышает размер существующей позиции."
+  },
+  {
+    "objectID": "posts/2020-02-09-slturtle.html#код",
+    "href": "posts/2020-02-09-slturtle.html#код",
+    "title": "Стратегия медленной черепахи",
+    "section": "Код",
+    "text": "Код\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\nusing System.Drawing;\n\npublic class MyStrategy : Strategy\n{\n    // quantity to buy on a trade\n    [Parameter(\"Order quantity (number of contracts to trade)\")]    \n    double Qty = 100;\n    \n    [Parameter(\"Bar Block Size\")]\n    int BarBlockSize = 6;\n    \n    [Parameter(\"Length of SMA in blocks (weeks)\", \"SMA\")]\n    int FastSMALength = 22;\n    \n    [Parameter(\"Length of SMA in blocks (weeks)\", \"SMA\")]\n    int SlowSMALength = 55;\n\n    int positionInBlock = 0;\n    bool buyOnNewBlock;\n    bool sellOnNewBlock;\n    \n    // two moving averages\n    SMA fastSMA;\n    SMA slowSMA;\n    \n    public override void OnStrategyStart()\n    {       \n        // set up the fast average\n        fastSMA = new SMA(Bars, FastSMALength * 7, Color.Yellow);       \n        Draw(fastSMA, 0);\n        // set up the slow average\n        slowSMA = new SMA(Bars, SlowSMALength * 7, Color.Pink);     \n        Draw(slowSMA, 0);\n    }\n\n    public override void OnBarOpen(Bar bar)\n    {\n        // calc quantity to reverse a position\n        double orderQty = 2 * Qty;\n\n        if (!HasPosition)\n            orderQty = Qty;\n\n        if (positionInBlock == 0)\n        {\n            if (buyOnNewBlock)\n            {\n                Buy(orderQty, \"Reverse to Long\");\n\n                buyOnNewBlock = false;\n            }\n\n            if (sellOnNewBlock)\n            {\n                Sell(orderQty, \"Reverse to Short\");             \n\n                sellOnNewBlock = false;\n            }\n        }\n    }\n\n    public override void OnBar(Bar bar)\n    {\n        // if our SMAs contain the current bar date\n        if (fastSMA.Contains(bar.DateTime) && slowSMA.Contains(bar.DateTime))\n        {\n            // see which one is above the other\n            Cross cross = fastSMA.Crosses(slowSMA, bar);\n\n            if (cross == Cross.Above)\n                buyOnNewBlock = true;\n\n            if (cross == Cross.Below)\n                sellOnNewBlock = true;\n        }\n\n        positionInBlock = (positionInBlock++) % BarBlockSize;\n    }\n}"
+  },
+  {
+    "objectID": "posts/2020-03-12-fourday-1.html",
+    "href": "posts/2020-03-12-fourday-1.html",
+    "title": "Стратегия продажи после 4 дней роста.",
+    "section": "",
+    "text": "Cтратегия является разновидностью стратегии Four Down Days. Вариант «день с повышением», который использует дни с повышением, а не с понижением, но также обеспечивает выполнение двух дополнительных условий.\nПервое условие - четвертый день должен быть огромным (2% и более). Уже через 3 дня рост на 2% на четвертый день будет весьма впечатляющим.\nТеоретически такой скачок на четвертый день был бы сильным приглашением для держателей длинных акций забрать часть прибыли со стола на следующее утро, тем самым снизив цену. Таким образом, эта стратегия выставляет короткий ордер на закрытие четвертого дня для исполнения на открытии пятого дня.\nВторое условие заключается в том, что стратегия завершается, когда она достигает цели прибыли в 1%, и использует лимитный ордер для реализации выхода в течение торгового дня 5.\nЕсли позиция все еще открыта в конце дня 5, стратегия выдает рыночный ордер. для закрытия позиции для исполнения при открытии рынка в 6-й день."
+  },
+  {
+    "objectID": "posts/2020-03-12-fourday-1.html#код",
+    "href": "posts/2020-03-12-fourday-1.html#код",
+    "title": "Стратегия продажи после 4 дней роста.",
+    "section": "Код",
+    "text": "Код\n\nusing OpenQuant.API;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 100;\n    \n    // exit with a profit target of 1%\n    [Parameter(\"Profit Target\")]\n    double ProfitTarget = 1;\n    \n    // last day up must be a big 2% up day\n    [Parameter(\"Up Move\")]\n    double UpPercent = 2;\n    \n    // Number of consecutive down closes\n    [Parameter(\"Number of consecutive down closes\")]\n    int ConsClosesCount = 4;\n    \n    // count of up days\n    int count;\n    double prevClose;\n\n    // orders\n    Order buyOrder;\n    Order sellOrder;\n    \n    public override void OnStrategyStart()\n    {\n        prevClose = -1;\n\n        count = 0;\n    }\n\n    public override void OnBar(Bar bar)\n    {\n        // we need to let a bar go by to capture the prev close\n        if (prevClose != -1)\n        {\n            // if we don't have a position open, update the count\n            // of up days, and try to enter a trade\n            if (!HasPosition)\n            {\n                if (prevClose &lt; bar.Close)\n                    count++;\n                else\n                    count = 0;\n\n                // if we have seen 4 (consClosesCount is equal to 4 by default) up days, AND if the last day \n                // up was 2% or more, then open a new position, \n                // going short on the day's close\n                if (count == ConsClosesCount)\n                {\n                    if ((bar.Close - prevClose) / prevClose &gt;= UpPercent / 100)\n                    {\n                        sellOrder = MarketOrder(OrderSide.Sell, Qty, \"Entry\");                      \n                        sellOrder.Send();\n                    }\n                }\n            }\n\n                // if we have a position open, cancel our previous \n                // 1% profit target order, and close using a market order\n            else\n            {\n                buyOrder.Cancel();\n\n                Buy(Qty, \"Buy Cover\");              \n            }\n        }\n\n        // now today's close becomes the previous close\n        prevClose = bar.Close;\n    }\n\n    public override void OnPositionOpened()\n    {\n        // when we open a position, immediately issue a limit order \n        // for our 1% profit target\n        double target_price = sellOrder.AvgPrice * (1 - ProfitTarget / 100);\n        buyOrder = BuyLimitOrder(Qty, target_price, \"Exit (Take Profit)\");\n        buyOrder.Send();\n    }\n}"
+  },
+  {
+    "objectID": "posts/2020-05-05-Breakout-4.html",
+    "href": "posts/2020-05-05-Breakout-4.html",
+    "title": "Стратегия пробой с 4% лимитом",
+    "section": "",
+    "text": "Обоснование этой простой стратегии прорыва состоит в том, чтобы воспользоваться преимуществом большого (4%) дневного движения вверх.\nВ начале каждого дня стратегия рассчитывает цену входа на 4% выше, чем вчерашнее закрытие, и выдает лимитный ордер на открытие длинной позиции, если эта цена будет достигнута. На следующее утро, если позиция закрывается (открыта во время вчерашних торгов), стратегия выдает рыночный приказ на закрытие позиции."
+  },
+  {
+    "objectID": "posts/2020-05-05-Breakout-4.html#код",
+    "href": "posts/2020-05-05-Breakout-4.html#код",
+    "title": "Стратегия пробой с 4% лимитом",
+    "section": "Код",
+    "text": "Код\n\nusing OpenQuant.API;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    int Qty = 100;\n    \n    // enter trade on 4 breakoutPercent breakout\n    [Parameter(\"Percent\")]\n    double BreakoutPercent = 4;\n    \n    // orders and trade quantity\n    Order buyOrder;\n    // for calculating breakout price limit\n    double prevClose;\n\n    public override void OnStrategyStart()\n    {\n        prevClose = -1;\n    }\n\n    public override void OnBarOpen(Bar bar)\n    {\n        // we need to let the first bar go by before we can\n        // calculate the breakout limit\n        if (prevClose != -1)\n        {\n            // if we do not have a position, then cancel the\n            // previous limit order (it is out of date)\n            if (!HasPosition)\n            {\n                if (buyOrder != null)\n                    buyOrder.Cancel();\n\n                // now try to enter a trade by setting a limit order\n                // to automatically buy in if the big 4% jump arrives.\n                // This order will reside on the exchange servers, and \n                // will execute during the day if the limit is triggered.\n                double breakout_fraction = 1 + (BreakoutPercent / 100);\n                double breakout_price = prevClose * breakout_fraction;\n                buyOrder = BuyStopOrder(Qty, breakout_price, \"Entry\");  \n                buyOrder.Send();\n            }\n\n                // if we have a position open, then close it now. \n                // Now (which is the leading edge of today's daily bar)\n                // is the start of the day after the trade was opened.\n            else\n                Sell(Qty, \"Exit\");\n        }\n    }\n\n    public override void OnBar(Bar bar)\n    {\n        // update the prevClose value for the breakout calculation\n        prevClose = bar.Close;\n    }\n}"
+  },
+  {
+    "objectID": "posts/2020-06-03-bolband.html",
+    "href": "posts/2020-06-03-bolband.html",
+    "title": "Стратегия боллинджер",
+    "section": "",
+    "text": "Cтратегия пытается торговать в длинную позицию, покупая на нижней границе полосы Боллинджера и продавая, когда цены растут и достигают линии скользящей средней.\nЭта стратегия эффективна на рынках с боковым и восходящим трендом, если ложные прорывы и рынки с нисходящим трендом не слишком часто идут против вас. Конечно, вы должны добавить в эту стратегию механизм стоп-лосса для защиты от убытков, прежде чем использовать ее в реальной жизни. Также обратите пристальное внимание на транзакционные издержки, потому что небольшие колебания цен обычно не приносят большой прибыли."
+  },
+  {
+    "objectID": "posts/2020-06-03-bolband.html#код",
+    "href": "posts/2020-06-03-bolband.html#код",
+    "title": "Стратегия боллинджер",
+    "section": "Код",
+    "text": "Код\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\nusing System.Drawing;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 100;\n    \n    [Parameter(\"Length of SMA\")]\n    int SMALength = 20;\n    \n    [Parameter(\"Order of BBL\")]\n    double BBLOrder = 2;\n\n    // indicators\n    BBL bbl;\n    SMA sma;    \n\n    Order buyOrder;\n    Order sellOrder;\n\n    public override void OnStrategyStart()\n    {\n        // set up the moving averages \n        sma = new SMA(Bars, SMALength);\n        sma.Color = Color.Yellow;\n        Draw(sma, 0);\n        // set up bollinger bands\n        bbl = new BBL(Bars, SMALength, BBLOrder);\n        bbl.Color = Color.Pink;\n        Draw(bbl, 0);\n    }\n\n    public override void OnBar(Bar bar)\n    {\n        // always a good practice to be sure a series contains\n        // a bar for a particular date before you try to use it\n        if (bbl.Contains(bar.DateTime))\n        {\n            // We are always trying to buy at the lower Bollinger\n            // limit, and sell when the price goes up to the \n            // latest SMA value. So we are constantly\n            // updating both the buy point and the sell point.\n\n            // if we don't have an open position in this instrument,\n            // update the buy point to the latest lower bbl limit \n            if (!HasPosition)\n            {\n                if (buyOrder != null)\n                    buyOrder.Cancel();\n\n                buyOrder = BuyLimitOrder(Qty, bbl.Last, \"Entry\");               \n                buyOrder.Send();\n            }\n\n                // else if we already have a position going, update \n                // the sell point to follow the latest SMA value \n            else\n                UpdateExitLimit();\n        }\n    }\n\n    public override void OnPositionOpened()\n    {\n        UpdateExitLimit();\n    }\n\n    private void UpdateExitLimit()\n    {\n        // cancel old exit point order, if it exists\n        if (sellOrder != null)\n            sellOrder.Cancel();\n        // Issue a new order with the latest SMA value. This is \n        // kind of a \"trailing SMA sell order\" that follows the SMA.\n        sellOrder = SellLimitOrder(Qty, sma.Last, \"Exit\");      \n        sellOrder.Send();\n    }\n}"
+  },
+  {
+    "objectID": "posts/2020-07-05-seasonal_1.html",
+    "href": "posts/2020-07-05-seasonal_1.html",
+    "title": "Фьючерс РТС. Стратегия N1",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe 10min. 2009-2021."
+  },
+  {
+    "objectID": "posts/2020-07-05-seasonal_1.html#код",
+    "href": "posts/2020-07-05-seasonal_1.html#код",
+    "title": "Фьючерс РТС. Стратегия N1",
+    "section": "Код",
+    "text": "Код\n\nusing System;\nusing System.Drawing;\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 1;\n\n    \n\n    public override void OnStrategyStart()\n    {\n        \n\n        \n    }\n    public override void OnBarSlice(long size)\n    {\n\n        {\n            \n         \n            if (!HasPosition)\n            {\n                //Rules\n                \n             if (   Clock.Now.Hour==17 & Clock.Now.Minute==10)\n                    \n                    \n                    \n                \n                {\n                    Buy(Qty);\n                \n                }\n            \n        \n\n            }\n            \n            else\n            \n            \n            {\n                if          \n                    (\n        Clock.Now.Hour==23 & Clock.Now.Minute==30 )\n                {\n                    Sell(Qty);\n                    \n                }\n                \n            \n            \n            }\n        }\n    }\n\n    \n\n}"
+  },
+  {
+    "objectID": "posts/2020-07-05-seasonal_1.html#график",
+    "href": "posts/2020-07-05-seasonal_1.html#график",
+    "title": "Фьючерс РТС. Стратегия N1",
+    "section": "График",
+    "text": "График\n\nonly long / with commission"
+  },
+  {
+    "objectID": "posts/2020-07-05-seasonal_1.html#section",
+    "href": "posts/2020-07-05-seasonal_1.html#section",
+    "title": "Фьючерс РТС. Стратегия N1",
+    "section": "2015-2021",
+    "text": "2015-2021\n\nonly long / with commission"
+  },
+  {
+    "objectID": "posts/2020-07-07-seasonal_2.html",
+    "href": "posts/2020-07-07-seasonal_2.html",
+    "title": "Фьючерс РТС. Стратегия N2",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe 10min. 2010-2021."
+  },
+  {
+    "objectID": "posts/2020-07-07-seasonal_2.html#график",
+    "href": "posts/2020-07-07-seasonal_2.html#график",
+    "title": "Фьючерс РТС. Стратегия N2",
+    "section": "График",
+    "text": "График\n\nonly short / with commission"
+  },
+  {
+    "objectID": "posts/2020-07-07-seasonal_2.html#код",
+    "href": "posts/2020-07-07-seasonal_2.html#код",
+    "title": "Фьючерс РТС. Стратегия N2",
+    "section": "Код",
+    "text": "Код\n\nusing System;\nusing System.Drawing;\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 1;\n\n    \n\n    public override void OnStrategyStart()\n    {\n        \n\n        \n    }\n    public override void OnBarSlice(long size)\n    {\n\n        {\n            \n         \n            if (!HasPosition)\n            {\n                //Rules\n                \n             if (   Clock.Now.Hour==10 & Clock.Now.Minute==10 \n                \n                    & Bar.DateTime.Day&gt;=15 )\n                    \n                    \n                    \n                \n                {\n                    Sell(Qty);\n                \n                }\n            \n        \n\n            }\n            \n            else\n            \n            \n            {\n                if          \n                    (\n            Clock.Now.Hour==17 & Clock.Now.Minute==00 )\n                {\n                    Buy(Qty);\n                    \n                }\n                \n            \n            \n            }\n        }\n    }\n\n    \n\n}"
+  },
+  {
+    "objectID": "posts/2020-07-08-seasonal_3.html",
+    "href": "posts/2020-07-08-seasonal_3.html",
+    "title": "Фьючерс РТС. Стратегия N3",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe 10min. 2015-2021.\nФьючерс РТС. стратегия N1+ Фьючерс РТС. стратегия N2\n\nlong+short / with commission"
+  },
+  {
+    "objectID": "posts/2020-07-09-seasonal_4.html",
+    "href": "posts/2020-07-09-seasonal_4.html",
+    "title": "Фьючерс РТС. Стратегия N4",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe 10min. 2015-today.\nЕще две стратегии в одной, как отдельные варианты общей закономерности стратегии Фьючерс РТС. Сезонность N1\nonly long / with commission\nСтатистика"
+  },
+  {
+    "objectID": "posts/2020-07-09-seasonal_4.html#код",
+    "href": "posts/2020-07-09-seasonal_4.html#код",
+    "title": "Фьючерс РТС. Стратегия N4",
+    "section": "Код",
+    "text": "Код"
+  },
+  {
+    "objectID": "posts/2020-07-09-seasonal_4.html#section",
+    "href": "posts/2020-07-09-seasonal_4.html#section",
+    "title": "Фьючерс РТС. Стратегия N4",
+    "section": "1",
+    "text": "1\n\nusing System;\nusing System.Drawing;\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 1;\n\n    \n\n    public override void OnStrategyStart()\n    {\n        \n\n        \n    }\n    public override void OnBarSlice(long size)\n    {\n\n        {\n            \n         \n            if (!HasPosition)\n            {\n                //Rules\n                \n            if (    Clock.Now.Hour==17 & Clock.Now.Minute==10 &\n                Bar.DateTime.DayOfWeek==DayOfWeek.Wednesday\n                & Bar.DateTime.Month ==4 \n                    \n                    \n                    )\n                    \n                \n                {\n                    Buy(Qty);\n                \n                }\n            \n        \n\n            }\n            \n            else\n            \n            \n            {\n                if          \n                    (\n                Clock.Now.Hour==23 & Clock.Now.Minute==30           )\n                {\n                    Sell(Qty);\n                    \n                }\n                \n            \n            \n            }\n        }\n    }\n\n    \n\n}"
+  },
+  {
+    "objectID": "posts/2020-07-09-seasonal_4.html#section-1",
+    "href": "posts/2020-07-09-seasonal_4.html#section-1",
+    "title": "Фьючерс РТС. Стратегия N4",
+    "section": "2",
+    "text": "2\n\nusing System;\nusing System.Drawing;\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 1;\n\n    \n\n    public override void OnStrategyStart()\n    {\n        \n\n        \n    }\n    public override void OnBarSlice(long size)\n    {\n\n        {\n            \n         \n            if (!HasPosition)\n            {\n                //Rules\n                \n            if (    Clock.Now.Hour==17 & Clock.Now.Minute==10 &\n                Bar.DateTime.DayOfWeek==DayOfWeek.Thursday\n                & Bar.DateTime.Month ==4 )\n                    \n                    \n                    \n                \n                {\n                    Buy(Qty);\n                \n                }\n            \n        \n\n            }\n            \n            else\n            \n            \n            {\n                if          \n                    (\n                Clock.Now.Hour==23 & Clock.Now.Minute==30           )\n                {\n                    Sell(Qty);\n                    \n                }\n                \n            \n            \n            }\n        }\n    }\n\n    \n\n}"
+  },
+  {
+    "objectID": "posts/2020-07-10-pattern_1.html",
+    "href": "posts/2020-07-10-pattern_1.html",
+    "title": "Фьючерс РТС. Стратегия N1",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe Daily. 2005-2021.\nЭтот вариант стратегии есть в примерах к Openquant- Breakout with 4% limit В данном случае big jump = 3%\nonly long / with commission"
+  },
+  {
+    "objectID": "posts/2020-07-10-pattern_1.html#код",
+    "href": "posts/2020-07-10-pattern_1.html#код",
+    "title": "Фьючерс РТС. Стратегия N1",
+    "section": "Код",
+    "text": "Код\n\nusing OpenQuant.API;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    int Qty = 1;\n    \n    // enter trade on 4 breakoutPercent breakout\n    [Parameter(\"Percent\")]\n    double BreakoutPercent = 3;\n    \n    // orders and trade quantity\n    Order buyOrder;\n    // for calculating breakout price limit\n    double prevClose;\n\n    public override void OnStrategyStart()\n    {\n        prevClose = -1;\n    }\n\n    public override void OnBarOpen(Bar bar)\n    {\n        // we need to let the first bar go by before we can\n        // calculate the breakout limit\n        if (prevClose != -1)\n        {\n            // if we do not have a position, then cancel the\n            // previous limit order (it is out of date)\n            if (!HasPosition)\n            {\n                if (buyOrder != null)\n                    buyOrder.Cancel();\n\n                // now try to enter a trade by setting a limit order\n                // to automatically buy in if the big 4% jump arrives.\n                // This order will reside on the exchange servers, and \n                // will execute during the day if the limit is triggered.\n                double breakout_fraction = 1 + (BreakoutPercent / 100);\n                double breakout_price = prevClose * breakout_fraction;\n                buyOrder = BuyStopOrder(Qty, breakout_price, \"Entry\");  \n                buyOrder.Send();\n            }\n\n                // if we have a position open, then close it now. \n                // Now (which is the leading edge of today's daily bar)\n                // is the start of the day after the trade was opened.\n            else\n                Sell(Qty, \"Exit\");\n        }\n    }\n\n    public override void OnBar(Bar bar)\n    {\n        // update the prevClose value for the breakout calculation\n        prevClose = bar.Close;\n    }\n}"
+  },
+  {
+    "objectID": "posts/2020-07-11-pattern_2.html",
+    "href": "posts/2020-07-11-pattern_2.html",
+    "title": "Фьючерс РТС. Стратегия N2",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe Daily. 2005-today.\nВ данном случае Four Up Days and Short, ConsClosesCount =4\nonly short / with commission"
+  },
+  {
+    "objectID": "posts/2020-07-11-pattern_2.html#код",
+    "href": "posts/2020-07-11-pattern_2.html#код",
+    "title": "Фьючерс РТС. Стратегия N2",
+    "section": "Код",
+    "text": "Код\n\nusing OpenQuant.API;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 100;\n\n    [Parameter(\"Number of consecutive up closes\")]\n    int ConsClosesCount = 4;\n\n    int count;\n    double prevClose;\n\n    public override void OnStrategyStart()\n    {\n        prevClose = -1;\n        count = 0;\n    }\n\n    public override void OnBar(Bar bar)\n    {\n        // we need at least one bar to go by before we do anything\n        if (prevClose != -1)\n        {\n            // if we don't have a position open, increment the count of up days (or reset it to zero)\n            if (!HasPosition)\n            {\n                if (prevClose &gt; bar.Close)\n                    count++;\n                else\n                    count = 0;\n\n                // if this is the fourth (consClosesCount is equal to 4 by default) up day, \n                // issue a market order to open a short position tomorrow morning, on day 5\n                if (count == ConsClosesCount)\n                    Sell(Qty, \"Entry\");\n            }\n\n            // else if we have a position open, close it now (today is the day after the trade was \n            // entered), so now is actually end of day 6, and the trade will be executed by the market \n            // on open day 7.\n            else\n                Buy(Qty, \"Exit\");\n        }\n\n        // today's close now becomes the previous close for the down day calculation\n        prevClose = bar.Close;\n    }\n}"
+  },
+  {
+    "objectID": "posts/2020-07-16-stock2gap.html",
+    "href": "posts/2020-07-16-stock2gap.html",
+    "title": "Акции. Гэп 2%",
+    "section": "",
+    "text": "Эта стратегия наблюдает за акцией с гэпом вниз на 2%, затем покупает гэп (лонг), чтобы закрыть позицию, когда гэп закрывается, или в конце следующего бара после бара гэпа.\nТаким образом, эта стратегия удерживает позицию открытой только в течение 1 бара."
+  },
+  {
+    "objectID": "posts/2020-07-16-stock2gap.html#код",
+    "href": "posts/2020-07-16-stock2gap.html#код",
+    "title": "Акции. Гэп 2%",
+    "section": "Код",
+    "text": "Код\n\nusing OpenQuant.API;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Gap percent\")]\n    double Percent = 2;\n\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 100;\n\n    double prevClose;\n    Order sellOrder;\n\n    public override void OnBar(Bar bar)\n    {\n        prevClose = bar.Close;\n\n        if (HasPosition)\n        {\n            sellOrder.Cancel();\n\n            Sell(Qty, \"Exit\");\n        }\n    }\n\n    public override void OnBarOpen(Bar bar)\n    {\n        if ((prevClose - bar.Open) / prevClose &gt; Percent / 100)\n            Buy(Qty, \"Entry\");\n    }\n\n    public override void OnPositionOpened()\n    {\n        sellOrder = SellLimitOrder(Qty, prevClose, \"Limit Exit\");\n        sellOrder.Send();\n    }\n}"
+  },
+  {
+    "objectID": "posts/2021-02-25-f_oldman.html",
+    "href": "posts/2021-02-25-f_oldman.html",
+    "title": "Бэктест фонарика новичка by Oldman",
+    "section": "",
+    "text": "[1] Посты от Олдман-а, Investo.ru"
+  },
+  {
+    "objectID": "posts/2021-02-25-f_oldman.html#фьючерс-ртс-таймфрейм-30-мин",
+    "href": "posts/2021-02-25-f_oldman.html#фьючерс-ртс-таймфрейм-30-мин",
+    "title": "Бэктест фонарика новичка by Oldman",
+    "section": "Фьючерс РТС, таймфрейм 30 мин",
+    "text": "Фьючерс РТС, таймфрейм 30 мин\n\npf 2, max DD -5,4%, net 95333, time in market 1,18, Win 44% avg 290, avg W/L 2,45"
+  },
+  {
+    "objectID": "posts/2021-02-25-f_oldman.html#правила",
+    "href": "posts/2021-02-25-f_oldman.html#правила",
+    "title": "Бэктест фонарика новичка by Oldman",
+    "section": "Правила :",
+    "text": "Правила :"
+  },
+  {
+    "objectID": "posts/2021-02-25-f_oldman.html#вход-шорт",
+    "href": "posts/2021-02-25-f_oldman.html#вход-шорт",
+    "title": "Бэктест фонарика новичка by Oldman",
+    "section": "Вход Шорт",
+    "text": "Вход Шорт\nЕсли avgproizv[1]&gt;-0.9"
+  },
+  {
+    "objectID": "posts/2021-02-25-f_oldman.html#выход",
+    "href": "posts/2021-02-25-f_oldman.html#выход",
+    "title": "Бэктест фонарика новичка by Oldman",
+    "section": "Выход",
+    "text": "Выход\nAtr Trailing (7,2)"
+  },
+  {
+    "objectID": "posts/2021-03-01-flat_jurik.html",
+    "href": "posts/2021-03-01-flat_jurik.html",
+    "title": "Бэктест индикатора Флэт/тренд by Jurik Research",
+    "section": "",
+    "text": "[1] Composite Fractal Behavior, Jurik Research\nГрафик РТС Дневной таймфрейм\nЛогика следующая: В качестве примера возьмем уровень 10. Рост индикатора тренд, падение индикатора флет."
+  },
+  {
+    "objectID": "posts/2021-03-01-flat_jurik.html#правила",
+    "href": "posts/2021-03-01-flat_jurik.html#правила",
+    "title": "Бэктест индикатора Флэт/тренд by Jurik Research",
+    "section": "Правила",
+    "text": "Правила"
+  },
+  {
+    "objectID": "posts/2021-03-01-flat_jurik.html#вход-лонг",
+    "href": "posts/2021-03-01-flat_jurik.html#вход-лонг",
+    "title": "Бэктест индикатора Флэт/тренд by Jurik Research",
+    "section": "Вход Лонг",
+    "text": "Вход Лонг\nЕсли JR_Fractal24 (h+l,5) меньше 10 то ставим ордер на покупку на highest(high,5)"
+  },
+  {
+    "objectID": "posts/2021-03-01-flat_jurik.html#выход",
+    "href": "posts/2021-03-01-flat_jurik.html#выход",
+    "title": "Бэктест индикатора Флэт/тренд by Jurik Research",
+    "section": "Выход",
+    "text": "Выход\nВыход EOD в конце вечерней сессии или по трейлингу lowest (low,5)"
+  },
+  {
+    "objectID": "posts/2021-03-01-flat_jurik.html#бэктестинг",
+    "href": "posts/2021-03-01-flat_jurik.html#бэктестинг",
+    "title": "Бэктест индикатора Флэт/тренд by Jurik Research",
+    "section": "Бэктестинг",
+    "text": "Бэктестинг\nТест на 1 контракт. Фьючерс РТС, Таймфрейм 1 час. Интрадей . 2005- 2020 Recovery 14, win 48%, Trades 2626, Avg 180, MaxDD -13,2%"
+  },
+  {
+    "objectID": "posts/2021-03-10-5panic-day.html",
+    "href": "posts/2021-03-10-5panic-day.html",
+    "title": "5% Down-In-One-Day Panic Recovery",
+    "section": "",
+    "text": "Концепция, лежащая в основе этой стратегии, заключается в том, что иногда рынок паникует из-за некоторых новостей и на короткое время снижается курс акций. Через несколько часов люди оправляются от паники, понимают, что цена акций слишком низкая, и начинают покупать.\nВ конце каждого торгового дня эта стратегия получает дневной бар в обработчике события OnBar. Если позиция не открыта, стратегия использует сегодняшнюю цену закрытия для расчета новой лимитной цены, которая на 5% ниже сегодняшней цены закрытия, и выдает лимитный ордер на покупку, который будет исполнен при открытии рынка на следующий день.\nНапротив, если позиция открыта в конце дня, это означает, что где-то сегодня произошел 5% -ный разрыв, и поэтому стратегия немедленно закрывает позицию с помощью рыночного ордера (который будет выполнен при открытии рынка на следующее утро)."
+  },
+  {
+    "objectID": "posts/2021-03-10-5panic-day.html#код",
+    "href": "posts/2021-03-10-5panic-day.html#код",
+    "title": "5% Down-In-One-Day Panic Recovery",
+    "section": "Код",
+    "text": "Код\n\n\nusing OpenQuant.API;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Buy when a stock drops this number of percents in one day\")]\n    double Percent = 5;\n\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 100;\n\n    Order buyOrder;\n\n    public override void OnBar(Bar bar)\n    {\n        // if we do not have a position, update the limit buy order to be 5% above today's close\n        if (!HasPosition)\n        {\n            // cancel the old limit order (it's out of date now)\n            if (buyOrder != null)\n                buyOrder.Cancel();\n\n            // issue a new buy order at 5% below today's close this order will execute tomorrow \n            // if price is matched\n            double buy_price = bar.Close * (1 - (Percent / 100));\n\n            buyOrder = BuyLimitOrder(Qty, buy_price, \"Entry\");\n            buyOrder.Send();\n        }\n\n        // else we opened a position today using our limit order from yesterday, so now close \n        // the position at the end of today. We expect that such a big drop was freaky, and that \n        // prices recovered during the day. If not, this order stops further losses.\n        else\n            Sell(Qty, \"Exit\");\n    }\n}"
+  },
+  {
+    "objectID": "posts/2021-03-11-pattern_3.html",
+    "href": "posts/2021-03-11-pattern_3.html",
+    "title": "Фьючерс РТС. Стратегия N3",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe 10 min. 2016-2021.\nДополнительный фильтр(условие) к Стратегии Фьючерс РТС. Стратегия N1\nonly long / without commission"
+  },
+  {
+    "objectID": "posts/2021-03-11-pattern_3.html#код",
+    "href": "posts/2021-03-11-pattern_3.html#код",
+    "title": "Фьючерс РТС. Стратегия N3",
+    "section": "Код",
+    "text": "Код\n\nusing System;\nusing System.Drawing;\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 1;\n    double A =0;\n\n    BarSeries series;\n\n    \n    public override void OnStrategyStart()\n    {\n        \n    \n        BarSeries series = GetBars(BarType.Time,86400) ;\n    \n        }\n    \n    \n    \n    \n    public override void OnBarSlice(long size)\n    {\n\n        \n        if (Bars.Count &gt; 1)\n        \n     A= ((Bar.Close-Bars.Last.Open)/Bars.Last.Open)*100;\n        \n        \n    {\n            \n         \n        if (!HasPosition)\n        {\n            //Rules\n                \n            if ( A&lt;=3 & Clock.Now.Hour == 17\n                \n            \n                & Bar.DateTime.DayOfWeek!=DayOfWeek.Thursday \n                & Bar.DateTime.DayOfWeek!=DayOfWeek.Tuesday\n                & Bar.DateTime.Year&gt;=2016)\n                    \n                    \n                    \n                \n            {\n                Buy(Qty);\n            \n                        \n            }\n            \n            \n\n        }\n            \n        else\n            \n            \n        {\n            if          \n                (\n                Clock.Now.Hour==23 & Clock.Now.Minute==30 )\n            {\n                Sell(Qty);\n                    \n            }\n                \n            \n            \n        }\n    }\n        }\n\n    \n\n}"
+  },
+  {
+    "objectID": "posts/2021-04-11-pattern_4.html",
+    "href": "posts/2021-04-11-pattern_4.html",
+    "title": "Фьючерс РТС. Стратегия N4",
+    "section": "",
+    "text": "RTS Фьючерс. Timeframe 10 min. 2008-2021.\nДополнительный фильтр(условие) к Стратегии Фьючерс РТС. Стратегия N1\nonly long / without commission"
+  },
+  {
+    "objectID": "posts/2021-04-11-pattern_4.html#код",
+    "href": "posts/2021-04-11-pattern_4.html#код",
+    "title": "Фьючерс РТС. Стратегия N4",
+    "section": "Код",
+    "text": "Код\n\nusing System;\nusing System.Drawing;\n\nusing OpenQuant.API;\nusing OpenQuant.API.Indicators;\n\npublic class MyStrategy : Strategy\n{\n    [Parameter(\"Order quantity (number of contracts to trade)\")]\n    double Qty = 1;\n    double A =0;\n\n    BarSeries series;\n\n    \n    public override void OnStrategyStart()\n    {\n        \n    \n        BarSeries series = GetBars(BarType.Time,86400) ;\n    \n        }\n    \n    \n    \n    \n    public override void OnBarSlice(long size)\n    {\n\n        \n        if (Bars.Count &gt; 1)\n        \n     A= ((Bar.Close-Bars.Last.Open)/Bars.Last.Open)*100;\n        \n        \n    {\n            \n         \n        if (!HasPosition)\n        {\n            //Rules\n                \n            if ( A&gt;=-3 &    Clock.Now.Hour == 17\n                \n            \n                & Bar.DateTime.DayOfWeek!=DayOfWeek.Thursday \n                & Bar.DateTime.DayOfWeek!=DayOfWeek.Tuesday\n                & Bar.DateTime.Year&gt;=2008)\n                    \n                    \n                    \n                \n            {\n                Buy(Qty);\n            \n                        \n            }\n            \n            \n\n        }\n            \n        else\n            \n            \n        {\n            if          \n                (\n                Clock.Now.Hour==23 & Clock.Now.Minute==30 )\n            {\n                Sell(Qty);\n                    \n            }\n                \n            \n            \n        }\n    }\n        }\n\n    \n\n}"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html",
+    "href": "posts/2021-06-15-brent_by_JG.html",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "",
+    "text": "Стратегии на фьючерс брент были найдены методом data mining в процессе мониторинга твиттера в 2016-2017 годах, объединены в портфель стратегий и торгуются многими интрадей по сей день с небольшими вариациями."
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#результаты-портфеля-с-2017-года",
+    "href": "posts/2021-06-15-brent_by_JG.html#результаты-портфеля-с-2017-года",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Результаты портфеля с 2017 года:",
+    "text": "Результаты портфеля с 2017 года:\nNet +78.3$, Trades 2059, Win 54%, maxDD -11,4%, time in market 12%"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#кривая-доходности",
+    "href": "posts/2021-06-15-brent_by_JG.html#кривая-доходности",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Кривая доходности",
+    "text": "Кривая доходности"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#корреляционный-анализ",
+    "href": "posts/2021-06-15-brent_by_JG.html#корреляционный-анализ",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Корреляционный анализ",
+    "text": "Корреляционный анализ"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#правила",
+    "href": "posts/2021-06-15-brent_by_JG.html#правила",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Правила",
+    "text": "Правила"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#стратегия-1",
+    "href": "posts/2021-06-15-brent_by_JG.html#стратегия-1",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Стратегия 1",
+    "text": "Стратегия 1"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#лонг",
+    "href": "posts/2021-06-15-brent_by_JG.html#лонг",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Лонг",
+    "text": "Лонг\nЕсли Rsi(c,10)&gt;80 and time&gt;17:00"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#выход",
+    "href": "posts/2021-06-15-brent_by_JG.html#выход",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Выход",
+    "text": "Выход\nПо закрытию сессии"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#cтратегия-2",
+    "href": "posts/2021-06-15-brent_by_JG.html#cтратегия-2",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Cтратегия 2",
+    "text": "Cтратегия 2"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#лонг-1",
+    "href": "posts/2021-06-15-brent_by_JG.html#лонг-1",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Лонг",
+    "text": "Лонг\nЕсли время=1400 and день недели=5 and месяц&lt;&gt;9"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#выход-1",
+    "href": "posts/2021-06-15-brent_by_JG.html#выход-1",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Выход",
+    "text": "Выход\nПо закрытию сессии"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#стратегия-3",
+    "href": "posts/2021-06-15-brent_by_JG.html#стратегия-3",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Стратегия 3",
+    "text": "Стратегия 3"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#лонг-2",
+    "href": "posts/2021-06-15-brent_by_JG.html#лонг-2",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Лонг",
+    "text": "Лонг\nЕсли время=2300"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#выход-2",
+    "href": "posts/2021-06-15-brent_by_JG.html#выход-2",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Выход",
+    "text": "Выход\nПо закрытию сессии"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#стратегия-4",
+    "href": "posts/2021-06-15-brent_by_JG.html#стратегия-4",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Стратегия 4",
+    "text": "Стратегия 4"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#лонг-шорт",
+    "href": "posts/2021-06-15-brent_by_JG.html#лонг-шорт",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Лонг + Шорт",
+    "text": "Лонг + Шорт\nРазличные комбинации времени"
+  },
+  {
+    "objectID": "posts/2021-06-15-brent_by_JG.html#выход-3",
+    "href": "posts/2021-06-15-brent_by_JG.html#выход-3",
+    "title": "Портфель стратегий Brent by Jonh Gold",
+    "section": "Выход",
+    "text": "Выход\nПо закрытию сесиии"
+  },
+  {
+    "objectID": "posts/2021-10-29-sm_frequency.html",
+    "href": "posts/2021-10-29-sm_frequency.html",
+    "title": "Траектории c 2009. Фьючерс РТС",
+    "section": "",
+    "text": "Данные Финам. Таймфрейм 60 минут.\nLeg1 - текущий паттерн\nLeg2,3 - предшествующие"
+  },
+  {
+    "objectID": "posts/2021-10-29-sm_frequency.html#сортировка-по-убыванию",
+    "href": "posts/2021-10-29-sm_frequency.html#сортировка-по-убыванию",
+    "title": "Траектории c 2009. Фьючерс РТС",
+    "section": "Сортировка по убыванию:",
+    "text": "Сортировка по убыванию:"
+  },
+  {
+    "objectID": "posts/2021-10-30-sm_structure.html",
+    "href": "posts/2021-10-30-sm_structure.html",
+    "title": "Структура c 2009. Фьючерс РТС",
+    "section": "",
+    "text": "Данные Финам. Таймфрейм 60 минут."
+  },
+  {
+    "objectID": "posts/2021-10-30-sm_structure.html#частота-возникновения-паттерна-в",
+    "href": "posts/2021-10-30-sm_structure.html#частота-возникновения-паттерна-в",
+    "title": "Структура c 2009. Фьючерс РТС",
+    "section": "Частота возникновения паттерна в %:",
+    "text": "Частота возникновения паттерна в %:"
+  },
+  {
+    "objectID": "posts/2021-10-30-sm_structure.html#визуальный-анализ-показывает-что",
+    "href": "posts/2021-10-30-sm_structure.html#визуальный-анализ-показывает-что",
+    "title": "Структура c 2009. Фьючерс РТС",
+    "section": "Визуальный анализ показывает что:",
+    "text": "Визуальный анализ показывает что:\n\nСвинги вверх с пробоем хаев возникают чаще чем свинги вниз с пробоем лоу\nНа росте рынок чаще показывает неглубокие коррекции, а на падении глубокие\nи т.д и т.п."
+  },
+  {
+    "objectID": "posts/2021-10-30-sm_structure.html#порядок-и-частота-возникновения-паттерна",
+    "href": "posts/2021-10-30-sm_structure.html#порядок-и-частота-возникновения-паттерна",
+    "title": "Структура c 2009. Фьючерс РТС",
+    "section": "Порядок, и частота возникновения паттерна:",
+    "text": "Порядок, и частота возникновения паттерна:\n\nLeg-1 Текущий паттерн\nLeg-2 Предшествующий паттерн"
+  },
+  {
+    "objectID": "posts/2021-10-30-sm_structure.html#пример",
+    "href": "posts/2021-10-30-sm_structure.html#пример",
+    "title": "Структура c 2009. Фьючерс РТС",
+    "section": "Пример:",
+    "text": "Пример:\nК паттерну 9 (рост), можно прийти только тремя путями, с разными вариантами успеха:\n\nчерез паттерн 2 - неглубокую коррекцию\nчерез паттерн 3 - bear trap\nчерез патерн 4 - глубокую коррекцию"
+  },
+  {
+    "objectID": "posts/2021-10-30-sm_structure.html#текущий-паттерн-и-два-предшествующих-ему",
+    "href": "posts/2021-10-30-sm_structure.html#текущий-паттерн-и-два-предшествующих-ему",
+    "title": "Структура c 2009. Фьючерс РТС",
+    "section": "Текущий паттерн и два предшествующих ему:",
+    "text": "Текущий паттерн и два предшествующих ему:"
+  },
+  {
+    "objectID": "posts/2021-10-30-sm_structure.html#пример-1",
+    "href": "posts/2021-10-30-sm_structure.html#пример-1",
+    "title": "Структура c 2009. Фьючерс РТС",
+    "section": "Пример:",
+    "text": "Пример:\nК паттерну 9 из прошлого примера можно прийти через паттерн 2, к которому можно прийти: * через паттерн 8 * через паттерн 9\nПоследовательность будет выглядеть следующим образом:\n\n8-2-9\n9-2-9"
+  },
+  {
+    "objectID": "posts/2021-11-01-sm_statistic.html",
+    "href": "posts/2021-11-01-sm_statistic.html",
+    "title": "Статистика c 2009. Фьючерс РТС",
+    "section": "",
+    "text": "Ниже вы сможете увидеть статистику по паттернам, с разбивкой:\n\nпо времени\nпо движению в %\nпо движению в барах\nпо скорости движения\n\n\nА также посмотреть статистику окончания направленных движений"
+  },
+  {
+    "objectID": "posts/2021-11-02-sm_chart.html",
+    "href": "posts/2021-11-02-sm_chart.html",
+    "title": "График. Вложенные паттерны",
+    "section": "",
+    "text": "На графике можно увидеть паттерны Clyde Lee, а также вложенные паттерны “аля Матрешка”.\nФьючерс на индекс РТС. Таймфрейм 30 минут."
+  },
+  {
+    "objectID": "posts/2021-11-03-sm_patterns.html",
+    "href": "posts/2021-11-03-sm_patterns.html",
+    "title": "Характеристика паттернов",
+    "section": "",
+    "text": "На схеме описания паттернов я пометил точки поворота / разворота буквами, начинающимися с «a» и продвигающимися вперед во времени через «b», «c» и «d». Номер паттерна присваивается точке «d» в любом паттерне.\nЛогика для перечисления идентификационных номеров приведена ниже:\n\nПаттерны:\n\nПаттерны, обозначенные числами от 0 до 4, имеют последний свинг паттерна, направленный вниз, и являются медвежьими.\nПаттерны с номерами от 5 до 9 имеют последний свинг паттерна, направленный вверх, и являются бычьими.\nСlyde Lee\nПредставленный выше метод как минимум позволяет определить текущий паттерн, и сделать вероятностный прогноз последующих движений рынка."
+  },
+  {
+    "objectID": "posts/2021-11-04-sm_history.html",
+    "href": "posts/2021-11-04-sm_history.html",
+    "title": "Предыстория 1977-1997",
+    "section": "",
+    "text": "В 1977 году Arthur A. Merrill опубликовал книгу под названием Filtered Waves - Basic Theory. В этом трактате он изложил концепцию «простой классификации волн по амплитуде. Используемая амплитуда - это общее колебание от самой высокой точки до самой низкой».\nОднако работа мистера Меррилла заставила меня задуматься о «волнах», состоящих из нескольких ног, и о том, как определять и использовать такую информацию.\nВ сентябре 1983 года я посетил семинар Curtis J. Hesler из Missoula, штат Montana, посвященный так называемой формуле спроса и предложения, разработанной Генри Уилером Чейзом. Предложенный подход был очень сложным, но в основе системы лежала классификация «волн» цен, основанная на положении четырех разворотных точек или точек разворота.\nНа основе идеи, предложенной на этом семинаре, я разработал классификацию свингов. Этот простой метод классификации представляет собой явное определение общей структуры рынка с использованием идентификационных номеров моделей в диапазоне от нуля (0) до девяти (9).\nClyde Lee"
   }
 ]
