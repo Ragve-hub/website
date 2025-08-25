@@ -3,6 +3,8 @@ project:
   output-dir: docs
 
 website:
+  google-analytics:
+    tracking-id: "G-W9VH0D4BP1"
   open-graph: true
   title: "Vector"
   favicon: favicon.ico
@@ -131,4 +133,5 @@ metadata:
   toc: true
      # title-block-categories: false
      # toc-depth: 5
+
   
