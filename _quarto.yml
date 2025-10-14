@@ -76,6 +76,12 @@ website:
       
   page-footer: 
     left: "© 2003-2025, Qt" 
+      - text: "О себе"
+        href: about.html
+      - text: "О сайте"
+        href: about_site.html
+      - text: "Дисклеймер"
+        href: disclaimer.html
     
     right:
       - icon: envelope-fill
@@ -135,5 +141,6 @@ metadata:
      # toc-depth: 5
 
   
+
 
 
