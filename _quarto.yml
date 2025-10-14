@@ -83,14 +83,7 @@ website:
       - text: "Дисклеймер"
         href: disclaimer.html
 
-    center:
-      - text: "О себе"
-        href: about.html
-      - text: "О сайте"
-        href: about_site.html
-      - text: "Дисклеймер"
-        href: disclaimer.html
-        
+            
     right:
       - icon: envelope-fill
         href: mailto:info@vector-am.ru
@@ -149,6 +142,7 @@ metadata:
      # toc-depth: 5
 
   
+
 
 
 
